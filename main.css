@@ -53,7 +53,7 @@ img {
 
 /* ----- UNIVERSAL STYLES --------------------------- */
 
-.bg-featured{
+.bg-featured {
   background-color: #1abc9c;
   color: white;
 }
@@ -76,16 +76,17 @@ body {
 
 
   color: rgb(60,60,65);
+}
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, nav {
   font-family: 'Fredericka the Great', cursive;
   text-transform: uppercase;
-  color: #1abc9c;
+  color: black;
   font-weight: 700;
   margin-bottom: 0.5em;
 }
 h1 {
-  font-size: 7vw;
+  font-size: 3vw;
   line-height: 0.9em;
 }
 h2 {
@@ -108,4 +109,39 @@ h3 {
 /*-- - - - - - - STYLESHEETS (Gridlex, fonts, etc. Put my own stylesheet last)- - - - - - - - - -->*/
 /*<link href="https://fonts.googleapis.com/css?family=Averia+Serif+Libre:300,300i,400,400i,700,700i|Cabin+Sketch:400,700|Chonburi|Elsie:400,900|Flamenco:300,400|Forum|Fredericka+the+Great|Life+Savers:400,700|Mirza:400,700|Pompiere|Share:400,400i,700,700i|Simonetta:400,400i,900,900i|Special+Elite" rel="stylesheet">*/
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
+
+/*-- -  - - - - - - - - - HEADER - - - - - - - - - - - --*/
+.header-text {
+  background: rgba(255, 255, 255, 0.6);
+  padding: 2.5rem 2.5rem 2.5rem 2.5rem;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+
+}
+.bg-pattern {
+  background-image: url("images/fashion/fashion-42.png");
+  background-size: 25%;
+  background-position: center;
+  min-height:100vh;
+}
+
+a {
+  color: #7f2d50;
+  text-decoration: none;
+}
+
+a:visited {
+  color: grey;
+}
+
+.drop-svg {
+  width: 3rem;
+  stroke: #7f2d50;
+  fill: #7f2d50;
+  position: absolute;
+  bottom: 6px;
+
+}
