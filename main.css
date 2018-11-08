@@ -1,0 +1,111 @@
+/* INDEX  --------------------
+  - CSS RESET
+  - GENERAL HELPER CLASSES
+  - UNIVERSAL STYLES
+  - HEADER & FOOTER
+  - MODULAR ELEMENTS
+    - Element Name
+  - FORMS
+  - SPECIFIC PAGES
+    - Page Name
+---------------------------
+Website Fonts: List fonts here for reference
+Website Colours: List colour hex codes here for reference
+----------------------------
+*/
+
+
+
+/* ---- CSS RESET --------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%; /* This ensures an image never breaks it's container */
+}
+
+/* ---- GENERAL HELPER CLASSES --------------------------- */
+.tall         { min-height:100vh; }
+.med-height   { min-height: 50vh; }
+
+.left         { text-align: left; }
+.centered     { text-align: center; }
+.right        { text-align: right; }
+
+.no-padding { padding: 0; }
+
+.padded-1 { padding: 1%; }
+.padded-3 { padding: 3%; }
+.padded-5 { padding: 5%; }
+
+.padded-top-1 { padding-top: 1%;}
+
+.mob-show { display: none;}
+
+.bg-img {
+  background-color: grey;
+  background-size: cover;
+  background-position: center;
+}
+
+/* ----- UNIVERSAL STYLES --------------------------- */
+
+.bg-featured{
+  background-color: #1abc9c;
+  color: white;
+}
+.bg-dark {}
+
+.bg-light {}
+
+.featured h1,
+.featured h2,
+.featured h3 {
+  color: white;
+}
+
+section {
+  padding: 10vh 5%;
+}
+
+body {
+  font-family: 'Pompiere', cursive;
+
+
+  color: rgb(60,60,65);
+
+h1, h2, h3, h4 {
+  font-family: 'Fredericka the Great', cursive;
+  text-transform: uppercase;
+  color: #1abc9c;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+}
+h1 {
+  font-size: 7vw;
+  line-height: 0.9em;
+}
+h2 {
+  font-size: 2em;
+}
+h3 {
+  font-size: 1.5em;
+}
+
+.col, [class*=col-] {
+  padding: 3%;
+}
+
+.fa {
+  font-size: 2.5em;
+  margin: 0 0 0.5em;
+  color: #1abc9c; /* featured-color */
+}
+
+/*-- - - - - - - STYLESHEETS (Gridlex, fonts, etc. Put my own stylesheet last)- - - - - - - - - -->*/
+/*<link href="https://fonts.googleapis.com/css?family=Averia+Serif+Libre:300,300i,400,400i,700,700i|Cabin+Sketch:400,700|Chonburi|Elsie:400,900|Flamenco:300,400|Forum|Fredericka+the+Great|Life+Savers:400,700|Mirza:400,700|Pompiere|Share:400,400i,700,700i|Simonetta:400,400i,900,900i|Special+Elite" rel="stylesheet">*/
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
