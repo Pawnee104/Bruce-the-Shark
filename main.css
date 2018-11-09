@@ -72,7 +72,7 @@ section {
 }
 
 body {
-  font-family: 'Pompiere', cursive;
+  font-family: 'Montserrat', san-serif;
 
 
   color: rgb(60,60,65);
@@ -83,6 +83,7 @@ h1, h2, h3, h4, nav {
   text-transform: uppercase;
   color: black;
   font-weight: 700;
+  text-align: center;
   margin-bottom: 0.5em;
 }
 h1 {
@@ -119,11 +120,10 @@ h3 {
   justify-content: center;
   text-align: center;
 
-
 }
 .bg-pattern {
   background-image: url("images/fashion/fashion-42.png");
-  background-size: 25%;
+  background-size: cover;
   background-position: center;
   min-height:100vh;
 }
@@ -133,15 +133,23 @@ a {
   text-decoration: none;
 }
 
-a:visited {
+a:hover {
   color: grey;
+  transition:all .5s;
 }
 
 .drop-svg {
-  width: 3rem;
+  width: 4rem;
   stroke: #7f2d50;
   fill: #7f2d50;
   position: absolute;
   bottom: 6px;
 
+}
+
+/*-- -  - - - - - - - - - INSTAGRAM - - - - - - - - - - - --*/
+
+.insta-feed {
+  align-content: center;
+  width: 100%;
 }
