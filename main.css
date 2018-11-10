@@ -122,12 +122,12 @@ h3 {
 
 }
 
-.header-text h1 {
+.header-text h1, h2 {
   margin-bottom: 30px;
 }
 
 .bg-pattern {
-  background-image: url("images/fashion/fashion-28.jpg");
+  background-image: url("images/fashion/fashion-44.png");
   background-size: cover;
   background-position: center;
   min-height:100vh;
@@ -144,11 +144,12 @@ a:hover {
   transition:all .5s;
 }
 
-.drop-svg {
+.fas {
   width: 4rem;
-  stroke: #7f2d50;
-  fill: #7f2d50;
-  position: absolute;
+  stroke: rgb(212, 146, 0);
+  fill: rgb(212, 146, 0);
+  font-size: 3rem;
+  position: center, absolute;
   bottom: 6px;
 
 }
@@ -287,7 +288,7 @@ display: block;
 /* - - - - - - - - -- -  PORTRAITS: PETS - - - -- - - - - - */
 
 .pet-gallery {
-  background-color: ivory;
+  background-color: none;
 }
 
 .pet-1, .pet-2, .pet-3 {
