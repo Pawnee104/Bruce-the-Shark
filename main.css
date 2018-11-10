@@ -159,12 +159,88 @@ hr {
   stroke: #7f2d50;
   border: none;
   border-bottom: 1px solid gray;
-  margin-right: 4rem;
-  margin-left: 4rem;
-  margin-top: 1rem;
-  margin-bottom: 4rem;
+  margin-right: 10rem;
+  margin-left: 10rem;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
   padding: 0rem;
+
 }
+.bg-Elyse{
+  background-image: url("images/elyse/elyse-1.jpg");
+  background-size: cover;
+  background-position: 60% 50%;
+  padding: 2rem 2rem 2rem 2rem;
+  /* width: 25vw; */
+  height: 25vw;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  border-radius: 100%;
+}
+.bg-Elyse, .opening{
+
+  font-weight: bold;
+  text-align: left;
+  padding: 3% 5em;
+  margin-bottom: 1px;
+  line-height: 2;
+
+}
+
+  font-weight: 400;
+  text-align: left;
+  padding: 1% 5em;
+  margin-top: 5px;
+  line-height: 2;
+}
+
+.email {
+  font-weight: 900;
+}
+
+  text-align: left;
+  padding: 3% 5em;
+  margin-bottom: 2px;
+  line-height: 2;
+}
+
+
+.bg-girlhat-1,.bg-girlhat-2, .bg-girlhat-3 {
+  background-image: url("images/fashion/fashion-35.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height:25vh;
+  padding: 2rem 2rem 2rem 2rem;
+  width: 25vw;
+  height: 25vw;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  border-radius: 100%;
+
+}
+
+ .bg-girlhat-2 {
+    background-image: url("images/fashion/fashion-35.jpg");
+    }
+
+.bg-girlhat-3 {
+      background-image: url("images/fashion/fashion-35.jpg");
+      background-size: cover;
+      background-position: center;
+      min-height:25vh;
+      padding: 2rem 2rem 2rem 2rem;
+      width: 25vw;
+      height: 25vw;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      display: flex;
+      border-radius: 100%;
+
 
 /* - - - - - - - - - - - - PORTRAITS - - - -- - - - - - - - - */
 
