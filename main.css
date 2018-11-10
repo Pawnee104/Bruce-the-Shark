@@ -161,7 +161,7 @@ hr {
   border-bottom: 1px solid gray;
   margin-right: 10rem;
   margin-left: 10rem;
-  margin-top: 4rem;
+  margin-top: 2rem;
   margin-bottom: 1rem;
   padding: 0rem;
 
@@ -203,7 +203,7 @@ display: block;
 
 
 .bg-girlhat-1,.bg-girlhat-2, .bg-girlhat-3 {
-  background-image: url("images/fashion/fashion-24.jpg");
+  background-image: url("images/fashion/fashion-35.jpg");
   background-size: cover;
   background-position: center;
   padding-bottom: 100%;
@@ -216,7 +216,7 @@ display: block;
 }
 
  .bg-girlhat-2 {
-    background-image: url("images/fashion/fashion-35.jpg");
+    background-image: url("images/fashion/fashion-31.jpg");
     }
 
 .bg-girlhat-3 {
