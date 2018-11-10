@@ -68,7 +68,7 @@ img {
 }
 
 section {
-  padding: 10vh 5%;
+  padding: 5vh 5%;
 }
 
 body {
@@ -183,25 +183,29 @@ hr {
 
   font-weight: bold;
   text-align: left;
-  padding: 3% 5em;
+  padding: 3% 4em;
   margin-bottom: 1px;
   line-height: 2;
 
 }
 
+.bio-text {
   font-weight: 400;
   text-align: left;
-  padding: 1% 5em;
+  padding: 1% 4em;
+  margin-bottom: 1px;
   margin-top: 5px;
   line-height: 2;
 }
 
-.email {
+.span-text {
   font-weight: 900;
 }
 
+.signature {
+  font-weight: 900;
   text-align: left;
-  padding: 3% 5em;
+  padding: 3% 4em;
   margin-bottom: 2px;
   line-height: 2;
 }
@@ -211,10 +215,7 @@ hr {
   background-image: url("images/fashion/fashion-35.jpg");
   background-size: cover;
   background-position: center;
-  min-height:25vh;
-  padding: 2rem 2rem 2rem 2rem;
-  width: 25vw;
-  height: 25vw;
+  padding-bottom: 100%;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -229,7 +230,8 @@ hr {
 
 .bg-girlhat-3 {
       background-image: url("images/fashion/fashion-35.jpg");
-      background-size: cover;
+    }
+      /* background-size: cover;
       background-position: center;
       min-height:25vh;
       padding: 2rem 2rem 2rem 2rem;
@@ -239,10 +241,10 @@ hr {
       justify-content: center;
       text-align: center;
       display: flex;
-      border-radius: 100%;
+      border-radius: 100%; */
 
 
-/* - - - - - - - - - - - - PORTRAITS - - - -- - - - - - - - - */
+/* - - - - - - - - - - - - PORTRAITS: HEADER - - - -- - - - - - - - - */
 
 .portrait-text {
   background: rgba(255, 255, 255, 0.65);
@@ -260,10 +262,186 @@ hr {
   background-image: url("images/home portraits/house-20.jpg");
   background-size: cover;
   background-position: center;
-  min-height:100vh;
-/*-- -  - - - - - - - - - INSTAGRAM - - - - - - - - - - - --*/
+  min-height:50vh;
+}
+  /* - - - - - - - - -- -  PORTRAITS: HOMES - - - -- - - - - - */
 
+.home-gallery {
+  background-color: lightblue;
+
+}
+
+.home-1, .home-2, .home-3 {
+    background-size: cover;
+    background-position: center;
+    padding-bottom:65%;
+    border-width: 5px;
+    /* align-items: center;
+    justify-content: center;  */
+
+}
+
+.home-1 {
+    background-image: url("images/home portraits/house-18.jpg");
+}
+
+.home-2 {
+    background-image: url("images/home portraits/house-24.jpg");
+}
+
+.home-3 {
+    background-image: url("images/home portraits/house-30.jpg");
+}
+
+/* - - - - - - - - -- -  PORTRAITS: PETS - - - -- - - - - - */
+
+.pet-gallery {
+  background-color: ivory;
+}
+
+.pet-1, .pet-2, .pet-3 {
+    background-size: cover;
+    background-position: center;
+    padding-bottom:65%;
+    border-width: 5px;
+
+}
+
+.pet-1 {
+    background-image: url("images/home portraits/house-34.jpg");
+}
+
+.pet-2 {
+    background-image: url("images/home portraits/house-44.jpg");
+}
+
+.pet-3 {
+    background-image: url("images/home portraits/house-44.jpg");
+}
+
+/* - - - - - - - - - - - - ILLUSTRATIONS HEADER- - - - - - - - - - - */
+
+.illustrations-text {
+  background: rgba(255, 255, 255, 0.65);
+  padding: 2.5rem 2.5rem 2.5rem 2.5rem;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.illustration-text a {
+  padding:1% 12%;
+}
+
+.bg-illustrations {
+  background-image: url("images/fashion/fashion-27.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height:50vh;
+}
+/* - - - - - - - - - - ILLUSTRATIONS: Children's Books - - - - - - - - - - */
+.children-gallery {
+  background-color: lightyellow;
+
+}
+
+.children-1, .children-2, .children-3 {
+    background-size: cover;
+    background-position: center;
+    padding-bottom:85%;
+    border-width: 5px;
+    /* align-items: center;
+    justify-content: center;  */
+
+}
+
+.children-1 {
+    background-image: url("images/home portraits/house-18.jpg");
+}
+
+.children-2 {
+    background-image: url("images/home portraits/house-24.jpg");
+}
+
+.children-3 {
+    background-image: url("images/home portraits/house-30.jpg");
+
+}
+
+/*  - - - - - - - - - - ILLUSTRATIONS: FASHION + TEXTILES - - - - - - - - - -*/
+
+.fashion-gallery {
+  background-color: lightpink;
+
+}
+
+.fashion-1, .fashion-2, .fashion-3 {
+    background-size: contain;
+    background-position: center;
+    padding-bottom:100%;
+    border-width: 5px;
+
+}
+
+.fashion-1 {
+    background-image: url("images/fashion/fashion-20.jpg");
+}
+
+.fashion-2 {
+    background-image: url("images/fashion/fashion-32.jpg");
+}
+
+.fashion-3 {
+    background-image: url("images/fashion/fashion-25.jpg");
+  }
+
+  /*  - - - - - - - - - - ILLUSTRATIONS: BESPOKE PROJECTS - - - - - - - - - -*/
+
+  .bespoke-gallery {
+    background-color: lightgrey;
+
+  }
+
+  .bespoke-1, .bespoke-2, .bespoke-3 {
+      background-size: contain;
+      background-position: center;
+      padding-bottom:100%;
+      border-width: 5px;
+
+  }
+
+  .bespoke-1 {
+      background-image: url("images/bespoke/bespoke-7.jpg");
+  }
+
+  .bespoke-2 {
+      background-image: url("images/bespoke/bespoke-33.jpg");
+  }
+
+  .bespoke-3 {
+      background-image: url("images/bespoke/bespoke-26.jpg");
+    }
+/*-- -  - - - - - - - - - - INSTAGRAM - - - - - - - - - - - - - - - -- - - --*/
 .insta-feed {
   align-content: center;
   width: 100%;
+}
+
+/*-- -  - - - - - - - - - - TESTIMONIALS - - - - - - - - - - - - - - - -- - - --*/
+.bg-reviews {
+  background-color: lightgrey;
+}
+
+.headline {
+  text-align: center;
+}
+
+.credit {
+  font-weight: 900;
+  padding-bottom: 5%;
+}
+
+.date {
+  font-weight: normal;
+  padding-bottom: 5%;
 }
