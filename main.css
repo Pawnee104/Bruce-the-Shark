@@ -114,7 +114,7 @@ h3 {
 /*-- -  - - - - - - - - - HEADER - - - - - - - - - - - --*/
 .header-text {
   background: rgba(255, 255, 255, 0.65);
-  padding: 2.5rem;
+  padding: 3rem;
   margin: auto;
   align-items: center;
   justify-content: center;
@@ -123,11 +123,11 @@ h3 {
 }
 
 .header-text h1, h2 {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .bg-pattern {
-  background-image: url("images/fashion/fashion-44.png");
+  background-image: url("images/fashion/fashion-48.png");
   background-size: cover;
   background-position: center;
   min-height:100vh;
@@ -144,14 +144,20 @@ a:hover {
   transition:all .5s;
 }
 
-.fas {
+.arrow {
   width: 4rem;
-  stroke: rgb(212, 146, 0);
-  fill: rgb(212, 146, 0);
-  font-size: 3rem;
-  position: center, absolute;
-  bottom: 6px;
+  color: #7f941d;
+  font-size: 4rem;
+  position: absolute;
+  bottom: 35vh;
 
+}
+
+.stars {
+  font-color: black;
+  font-size: 1rem;
+  text-align: left;
+  bottom: 6px;
 }
 
 /* - - - - - - - - - - - - - - -- ABOUT - - -- - - - - - - --- - - - - - - -  */
@@ -300,15 +306,15 @@ display: block;
 }
 
 .pet-1 {
-    background-image: url("images/home portraits/house-34.jpg");
+    background-image: url("images/pet portraits/pet-collage.jpg");
 }
 
 .pet-2 {
-    background-image: url("images/home portraits/house-44.jpg");
+    background-image: url("images/pet portraits/pet-1.jpg");
 }
 
 .pet-3 {
-    background-image: url("images/home portraits/house-44.jpg");
+    background-image: url("images/pet portraits/pet-3.jpg");
 }
 
 /* - - - - - - - - - - - - ILLUSTRATIONS HEADER- - - - - - - - - - - */
