@@ -1,0 +1,105 @@
+
+    <div class="col-6_xs-12">
+      <p class="credit">LouAnnK <span class="date"> (November 2018)</span><p>
+        {% include stars.html %}
+        <p>Elyse created a beautiful portrait of my friend's childhood home. I know he will love it! She was wonderful to work with. Great communication and suggestions to make this painting better than I had imagined. She was very friendly and welcoming with any requests for details that I had. I would definitely recommend Elyse and will order from her again in the future! Thank you, Elyse!  </p>
+
+        <!-- <div class="col-1_xs-12 mobile-right">
+          <p class="quote-size">&rdquo;</p>
+        </div> -->
+    </div>
+
+    <div class="col-6_xs-12">
+      <p class="credit">Andrea Petera <span class="date"> (November 2018)</span><p>
+        {% include stars.html %}
+
+        <p>Elyse did an amazing job with 2 house portrait watercolors I ordered! love them!! </p>
+
+        <!-- <div class="col-1_xs-12 mobile-right">
+          <p class="quote-size">&rdquo;</p>
+        </div> -->
+    </div>
+
+  <!-- <div class="col-1_xs-12 mobile-left text-right">
+  <p class="quote-size">&ldquo;</p> -->
+<!-- </div> -->
+  <div class="col-6_xs-12">
+    <p class="credit">Anne Reaven<span class="date"> (October 2018)</span><p>
+      {% include stars.html %}
+      <p>If I could give this shop owner 1,000,000 stars - I would. First and foremost, her customer service is top notch! We had a small issue (my fault 100%) and she solved it at no extra cost. Second, her product was beautiful. Third, the recipients of this gift cried when they saw it. They were truly shocked at how someone would be able to capture the magic of their home without ever seeing it. </p>
+
+  </div>
+  <!-- <div class="col-1_xs-12 mobile-right">
+    <!-- <p class="quote-size">&rdquo;</p> -->
+  <!-- </div> -->
+
+  <!-- <div class="col-1_xs-12 mobile-left text-right">
+  <p class="quote-size">&ldquo;</p>
+</div> -->
+
+  <div class="col-6_xs-12">
+    <p class="credit">kricc59 <span class="date"> (September 2018)</span><p>
+      {% include stars.html %}
+      <p>We recently moved from a beautiful and beloved home and downsized to a townhouse community. I wanted to hang a framed picture of the old house in our new entry, as a reminder of where we came from, so I looked on Etsy for an artist to make my vision a reality. I decided to work with Elyse because the homes in her paintings all looked cozy and happy. I contacted Elyse in the morning and she had my drawing for review complete within hours of our first phone conversation, and the watercolor painting was done by the end of the day. We live on opposite sides of the country, but I received my painting, which was ready to be framed, in a matter of days. I am so happy with my purchase and highly recommend working with Elyse. My new painting makes us smile every time we pass it, and it's the perfect reminder of our beautiful home. </p>
+
+      <!-- <div class="col-1_xs-12 mobile-right">
+        <p class="quote-size">&rdquo;</p>
+      </div> -->
+
+  </div>
+
+  <!-- <div class="col-3_xs-12 mobile-left text-right"> -->
+  <!-- <p class="quote-size">&ldquo;</p> -->
+<!-- </div> -->
+
+  <div class="col-6_xs-12">
+      <p class="credit">Melissa Pallay<span class="date"> (August 2018)</span><p>
+      <p><span class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span><p>The painting came out amazing and the recipients loved it! Elyse was wonderful to work with and so fast to turn this around. I had the sketch within a few hours of submitting my order and received the final version in perfect condition 2 days later. She was willing to make any changes but it was perfect as is. I highly recommend her, this is the perfect personalized gift!</p>
+
+  <!-- <div class="col-1_xs-12 mobile-right">
+    <p class="quote-size">&rdquo;</p>
+  </div> -->
+
+  </div>
+
+  <!-- <div class="col-1_xs-12 mobile-left text-right">
+  <p class="quote-size">&ldquo;</p> -->
+<!-- </div> -->
+<div class="col-6_xs-12">
+    <p class="credit">kimbrown1018<span class="date"> (May 2018)</span><p>
+    <p><span class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span><p>Love love love the watercolor that Elyse did for us!! It’s perfect!! Elyse was so easy to work with and so friendly and accommodating! I highly recommend!! :) </p>
+
+    </div>
+
+  <!-- </div>
+  <div class="col-1_xs-12 mobile-right">
+    <p class="quote-size">&rdquo;</p>
+  </div> -->
+
+  ---
+  layout: default
+  home-gallery:
+    - image: /images/bespoke/bespoke-7.jpg
+      heading: Coffique Hot Cocoa Mug
+      description: Custom mug illustration for coffee brand Coffique
+    - image: /images/bespoke/bespoke-33.jpg
+      heading: Skateboard
+      description: Custom skateboard illustration featuring Twiggy
+    - image: /images/bespoke/bespoke-26.jpg
+      heading: Greeting Card
+      description: Custom greeting card illustration
+  ---
+
+  <section class="home-gallery grid">
+
+    {% for item in page.bespoke-gallery %}
+
+    <div class="col-4-middle_xs-12 padded-5 gallery-item">
+      <div style="background-image:url({{item.featured_image}})"></div>
+        <h4>{{item.heading}}</h4>
+        <p> {{item.description}}</p>
+    </div>
+
+    {% endfor %}
+
+  </section>

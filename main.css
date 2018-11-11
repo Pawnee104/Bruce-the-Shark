@@ -27,6 +27,10 @@ img {
   max-width: 100%; /* This ensures an image never breaks it's container */
 }
 
+[class*="grid-"], [class*="grid_"], [class~="grid"]{
+  margin: 0;
+
+}
 /* ---- GENERAL HELPER CLASSES --------------------------- */
 .tall         { min-height:100vh; }
 .med-height   { min-height: 50vh; }
@@ -37,7 +41,9 @@ img {
 
 .no-padding { padding: 0; }
 
-.padded-1 { padding: 1%; }
+.padded-1,
+[class*=col].padded-1 { padding: 1%; }
+
 .padded-3 { padding: 3%; }
 .padded-5 { padding: 5%; }
 
@@ -116,107 +122,11 @@ h3 {
   z-index: 9;
   padding: 8px;
 }
-/*this is where you can chand the color of the buttons*/
+/*this is where you can change the color of the buttons*/
 .burger-button span{
   width: 40px;
   border: 2px solid black;
-  background-color: black;
-  display: block;
-  border-radius: 22px;
-  transition: 2s;
-}
-.burger-button.active span{
-  border-color: green;
-  background-color:#383;
-}
 
-.burger-top, .burger-bottom{
-  position: absolute;
-}
-
-.burger-top{
-  top: -02px;
-}
-
-.burger-bottom{
-  bottom: -02px;
-}
-/* make sure this has the same top as the burger button has padding*/
-.burger-button.active .burger-top{
-  position: absolute;
-  top: 8px;
-  transform: rotateZ(45deg);
-}
-
-.burger-button.active .burger-middle{
-/*   transform: rotateZ(270deg); */
-  border-color: rgba(0,0,0,0);
-  background-color:rgba(0,0,0,0);
-}
-
-/* make sure this has the same bottom as the burger button has padding*/
-
-.burger-button.active .burger-bottom{
-  position: absolute;
-  bottom: 8px;
-  transform: rotateZ(-45deg);
-}
-
-
-.burger-menu {
-    display: none;
-    position: fixed;
-    top: 0;
-    left:0;
-    right: 0;
-    bottom: 0;
-    background-color: #f9f9f9;
-    padding:5px;
-    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
-    z-index: 8;
-}
-
-.burger-menu a {
-  text-decoration: none;
-  padding: 15px 11px;
-  font-size: 20px;
-  font-weight: 300;
-  color: #C3BFBC;
-  font-family: 'Alegreya Sans SC', sans-serif;
-  display:block;
-  padding:5px 15px;
-  text-align:center;
-  white-space:nowrap;
-}
-
-.burger-menu li{list-style:none}
-/*
-.dropdown-nav:hover .dropdown-content {
-    display: block;
-} */
-
-/*-- - - - - - - STYLESHEETS (Gridlex, fonts, etc. Put my own stylesheet last)- - - - - - - - - -->*/
-/*<link href="https://fonts.googleapis.com/css?family=Averia+Serif+Libre:300,300i,400,400i,700,700i|Cabin+Sketch:400,700|Chonburi|Elsie:400,900|Flamenco:300,400|Forum|Fredericka+the+Great|Life+Savers:400,700|Mirza:400,700|Pompiere|Share:400,400i,700,700i|Simonetta:400,400i,900,900i|Special+Elite" rel="stylesheet">*/
-
-
-/*-- -  - - - - - - - - - HEADER - - - - - - - - - - - --*/
-.header-text {
-  background: rgba(255, 255, 255, 0.65);
-  padding: 3rem;
-  margin: auto;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-
-}
-
-.header-text h1, h2 {
-  margin-bottom: 20px;
-}
-
-.bg-pattern {
-  background-image: url("images/fashion/fashion-48.png");
-  background-size: cover;
   background-position: center;
   min-height:100vh;
 }
@@ -233,38 +143,81 @@ a:hover {
 }
 
 .arrow-button {
-  color: #7f941d;
+  font-size: 3rem;
+  color: white;
   position: absolute;
   bottom: 0;
+  width: 100%;
+  right: 0;
+  left: 0;
+  text-align: center;
+
 }
 
 .arrow-button .fa-angle-down {
     font-size: 6rem;
+    color: white;
 }
 
 .stars {
-  font-color: black;
+  color: black;
   font-size: 1rem;
   text-align: left;
   bottom: 6px;
 }
 
-/* - - - - - - - - - - - - - - -- ABOUT - - -- - - - - - - --- - - - - - - -  */
+/* Gallery Styles */
 
-hr {
-  stroke: #7f2d50;
-  border: none;
-  border-bottom: 1px solid gray;
-  margin-right: 10rem;
-  margin-left: 10rem;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-  padding: 0rem;
+.gallery-image {
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    padding-bottom:100%;
+    border-width: 5px;
+    margin-bottom: 1rem;
+}
+
+.gallery-item a {
+  padding:0;
+}
+
+.bespoke-gallery .gallery-image {
+  /* ADD SPECIFIC STYLES HERE */
+}
+
+/* - - - - - - - - - - - - - - HEADER - - - - - - - - - - - - - - - - - -- */
+.header-text {
+  background: rgba(255, 255, 255, 0.65);
+  padding: 2.5rem;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-text h1, h2 {
+  margin-bottom: 30px;
+  margin-bottom: 20px;
+}
+.bg-pattern {
+  background-image: url("images/fashion/fashion-48.png");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
 
 }
 
+/* - - - - - - - - - - - - - - -- ABOUT - - -- - - - - - - - - - - - - - -  */
+
+hr {
+  border: none;
+  border-bottom: 1px solid #7f2d50;
+  width: 80%;
+  margin: 1rem auto 2rem; /* top, left+right, bottom */
+  padding: 0;
+}
+
 .bg-Elyse {
-background-image: url("images/elyse/elyse-1.jpg");
+background-image: url("/images/elyse/elyse-1.jpg");
 background-size: cover;
 background-position: center;
 border-radius: 200px;
@@ -299,7 +252,7 @@ display: block;
 
 
 .bg-girlhat-1,.bg-girlhat-2, .bg-girlhat-3 {
-  background-image: url("images/fashion/fashion-35.jpg");
+  background-image: url("/images/fashion/fashion-35.jpg");
   background-size: cover;
   background-position: center;
   padding-bottom: 100%;
@@ -346,10 +299,10 @@ display: block;
 }
 
 .bg-portraits {
-  background-image: url("images/home portraits/house-20.jpg");
+  background-image: url("/images/home-portraits/house-20.jpg");
   background-size: cover;
   background-position: center;
-  min-height:50vh;
+  min-height:60vh;
 }
   /* - - - - - - - - -- -  PORTRAITS: HOMES - - - -- - - - - - */
 
@@ -532,7 +485,53 @@ display: block;
   font-weight: normal;
   padding-bottom: 5%;
 }
+/* - - - - - - - - - - - SECTION: CONNECT - - - - - - - - - - - - - - - */
 
+input, textarea {
+  background-color: #fff;
+  color: black;
+  font-size: 1rem;
+/*   height: 25px;; */
+  width: 100%;
+  padding: 3%;
+  margin: 2% auto;
+  display: block;
+}
+::placeholder {
+  color: gray;
+  font-family: "Montserrat" , sans-serif;
+  font-size: 1rem;
+}
+textarea {
+  resize: vertical;
+}
+
+.button {
+  background-color:#dca625;
+  border: 1px;
+  border-radius:.25rem;
+  font-family: "Montserrat" , sans-serif;
+  color: white;
+}
+.button:hover {
+  background-color: #445a43;
+  border-color: #445a43;
+  color: white;
+}
+input:focus {
+  background-color: #ffffcc;
+  border-color: #ffffcc;
+  color: white;
+  outline: none;
+}
+textarea:focus {
+  background-color: #ffffcc;
+  border-color: #ffffcc;
+  color: white;
+  outline: none;
+}
+
+/*  - - - - - - - - - - -  MEDIA QUERIES - - - - - - - - - - - -- */
 @media (max-width: 567px) {
   .mob-show {
     display: block;}

@@ -1,71 +1,21 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <!-- This is the head of my html. This is where we include all the links in CSS files, google fonts, SEO meta data -->
+      {% include head.html %}
 
-<head>
-<!-- This is the head of my html. This is where we include all the links in CSS files, google fonts, SEO meta data -->
+  </head>
+  <body>
 
-<title> Elyse Whittaker-Paek: Artist + Illustrator</title>
-<!-- These are my CSS links; always put your own CSS last -->
-<!--Google Font/s-->
-<!-- Gridlex -->
-<!-- My CSS file -->
+    {{content}}
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-<link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
-<link href="https://fonts.googleapis.com/css?family=Montserrat:300i,400,900|Fredericka+the+Great|Life+Savers:400,700|Pompiere|Special+Elite" rel="stylesheet">
+    {% include site-footer.html %}
 
+    <!-- these are our javascript files -->
 
-<link href="main.css" type="text/css" rel="stylesheet" />
+    <script src="/jquery.js"></script>
+    <script src="/lightbox.js"></script>
+    <script src="/main.js"></script>
 
-
-</head>
-<body>
-
-
-  {{content}}
-
-</footer>
-
-<!-- - - - - - - - - - - - - FOOTER - - - - - - - - - -- - --->
-
-<section class="bg-footer grid-middle-center">
-  <div class="headline">
-      <h3>Elyse Whittaker-Paek</h3>
-      <h4>artist + illustrator</h4>
-
-</section>
-
-<nav class="grid-spaceAround">
-  <a href="about.html">About</a>
-  <a href="portraits.html">Home Portraits</a>
-  <a href="illustrations.html">Illustrations</a>
-  <a href="instagram.html">Instagram</a>
-  <a href="connect.html">Connect</a>
-
-
-  <!-- <a href="#about">About</a>
-  <a href="#portraits">Home Portraits</a>
-  <a href="#illustrations">Illustrations</a>
-  <a href="#instagram">Instagram</a>
-  <a href="#connect">Connect</a>
-
-  <div id="about">About</div>
-  <div id="portraits">Home Portraits</div>
-  <div id="illustrations">Illustrations</div>
-  <div id="instagram">Instagram</div>
-  <div id="connect">Connect</div> -->
-
-</nav>
-
-<div class="social">
-  <i class="fab fa-etsy"></i>
-  <i class="fab fa-instagram"></i>
-</div>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
-<script src="jquery.js"></script>
-<script src="main.js"></script>
-
-</body>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+---
+layout: default
+bespoke-gallery:
+  - featured_image: /images/bespoke/bespoke-7.jpg
+    heading: Coffique Hot Cocoa Mug
+    description: Custom mug illustration for coffee brand Coffique
+  - featured_image: /images/bespoke/bespoke-33.jpg
+    heading: Skateboard
+    description: Custom skateboard illustration featuring Twiggy
+  - featured_image: /images/bespoke/bespoke-26.jpg
+    heading: Greeting Card
+    description: Custom greeting card illustration
+---
+
+<section class="bespoke-gallery grid">
+
+  <h3 class="col-12 section-heading">Bespoke Projects</h3>
+
+  {% for item in page.bespoke-gallery %}
+
+  <div class="col-4-middle_xs-12 padded-1 gallery-item">
+    <div style="background-image:url({{item.featured_image}})" class="gallery-image"></div>
+      <h4>{{item.heading}}</h4>
+      <p> {{item.description}}</p>
+  </div>
+
+  {% endfor %}
+
+</section>
