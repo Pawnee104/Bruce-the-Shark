@@ -85,7 +85,7 @@ section {
 body {
   font-family: 'Montserrat', san-serif;
   color: rgb(60,60,65);
-  background-color: #E6E6EE
+  background-color: #edf7f6
 }
 
 h1, h2, h3, h4, nav {
@@ -284,7 +284,7 @@ a:hover {
 
 hr {
   border: none;
-  border-bottom: 1px solid #darkgray;
+  border-bottom: 1px solid darkgray;
   width: 80%;
   margin: 1rem auto 2rem; /* top, left+right, bottom */
   padding: 0;
@@ -326,9 +326,8 @@ display: block;
   font-weight: 900;
 }
 
-
-.bg-girlhat-1,.bg-girlhat-2, .bg-girlhat-3 {
-  background-image: url("/images/fashion/fashion-35.jpg");
+[class*=bg-circle-] {
+  background-image: url("/images/fashion/fashion-36.jpg");
   background-size: cover;
   background-position: center;
   padding-bottom: 100%;
@@ -340,24 +339,25 @@ display: block;
 
 }
 
- .bg-girlhat-2 {
-    background-image: url("images/fashion/fashion-31.jpg");
-    }
+ .bg-circle-2 {
+    background-image: url("images/fashion/fashion-24.jpg");
+  }
 
-.bg-girlhat-3 {
-      background-image: url("images/fashion/fashion-36.jpg");
-    }
-      /* background-size: cover;
-      background-position: center;
-      min-height:25vh;
-      padding: 2rem 2rem 2rem 2rem;
-      width: 25vw;
-      height: 25vw;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      display: flex;
-      border-radius: 100%; */
+.bg-circle-3 {
+    background-image: url("images/fashion/fashion-34.jpg");
+  }
+
+.bg-circle-4 {
+    background-image: url("images/fashion/fashion-26.jpg");
+  }
+
+.bg-circle-5 {
+  background-image: url("images/children/children-summer-6.jpg");
+  }
+
+.bg-circle-6 {
+  background-image: url("images/fashion/fashion-27.jpg");
+  }
 
 
 /* - - - - - - - - - - - - PORTRAITS: HEADER - - - -- - - - - - - - - */
@@ -438,7 +438,7 @@ display: block;
 
 /* - - - - - - - - - - - - ILLUSTRATIONS HEADER- - - - - - - - - - - */
 
-/* .illustrations-text {
+.illustrations-text {
   background: rgba(255, 255, 255, 0.65);
   padding: 2.5rem 2.5rem 2.5rem 2.5rem;
   margin: auto;
@@ -455,7 +455,7 @@ display: block;
   background-size: cover;
   background-position: center;
   min-height:50vh;
-} */
+}
 /* - - - - - - - - - - ILLUSTRATIONS: Children's Books - - - - - - - - - - */
 .children-gallery {
   background-color: none;
@@ -488,7 +488,7 @@ display: block;
 /*  - - - - - - - - - - ILLUSTRATIONS: FASHION + TEXTILES - - - - - - - - - -*/
 
 .fashion-gallery {
-  background-color: #99ab77;
+  background-color: #bdf0f5;
 
 }
 
@@ -515,7 +515,7 @@ display: block;
   /*  - - - - - - - - - - ILLUSTRATIONS: BESPOKE PROJECTS - - - - - - - - - -*/
 
   .bespoke-gallery {
-    background-color: #E6E6EE;
+    background-color: none;
 
   }
 
@@ -539,15 +539,20 @@ display: block;
       background-image: url("images/bespoke/bespoke-26.jpg");
     } */
 /*-- -  - - - - - - - - - - INSTAGRAM - - - - - - - - - - - - - - - -- - - --*/
-.insta-feed {
-  background-color: 
+.bg-instagram {
+  background-color: #bdf0f5;
+
+  }
+
+  .insta-feed {
+  background-color:
   align-content: center;
   width: 100%;
 }
 
 /*-- -  - - - - - - - - - - TESTIMONIALS - - - - - - - - - - - - - - - -- - - --*/
 .bg-reviews {
-  background-color: #E6E6EE;
+  background-color: none;
 }
 
 .headline {
@@ -562,6 +567,10 @@ display: block;
 .date {
   font-weight: normal;
   padding-bottom: 5%;
+}
+
+footer {
+  background-color: lightgreen;
 }
 /* - - - - - - - - - - - SECTION: CONNECT - - - - - - - - - - - - - - - */
 
@@ -652,7 +661,7 @@ textarea:focus {
 }
 
 /*  - - - - - - - - - - -  MEDIA QUERIES - - - - - - - - - - - -- */
-@media (max-width: 567px) {
+@media (max-width: 576px) {
   .mob-show {
     display: block;}
   .mob-hide {
