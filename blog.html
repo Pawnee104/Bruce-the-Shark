@@ -4,9 +4,19 @@ title: My blog
 banner-heading: My Blog Page
 ---
 
-<section>
-  <h1> Recent Posts </h1>
+  <section class="grid">
+    <h1 class="col-12"> Recent Posts </h1>
 
   {% for post in site.posts %}
 
+    <div class=" col-4_sm-6_xs-12 post-preview">
+      <a href="{{post.url}}">
+          <h3>{{post.title}}</h3>
+          <img src={{post.featured_image}}>
+          <p class="post-info post-desc post-author">{{post.description}}</p>
+          <p>{{post.author}}</p>
+      </a>
+    </div>
   {% endfor %}
+
+</section>

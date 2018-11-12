@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<!-- - - - - this is the html for invididual blog posts  -->
+
+<section class="grid">
+  <div class="col-9_md-8_sm-12 post-body">
+    <h1> {{page.title}}</h1>
+    <p class="post-info post-date post-author"> {{page.date | date_to_long_string }} by {{page.author}} </p>
+
+    {{content}}
+
+  </div>
+
+  <div class="col-3_md-4_sm-12 sidebar">
+    <div> Test </div>
+    <div> Test </div>
+    <div> Test </div>
+    <div> Test </div>
+  </div>
