@@ -85,6 +85,7 @@ section {
 body {
   font-family: 'Montserrat', san-serif;
   color: rgb(60,60,65);
+  background-color: #E6E6EE
 }
 
 h1, h2, h3, h4, nav {
@@ -272,7 +273,7 @@ a:hover {
   margin-bottom: 20px;
 }
 .bg-pattern {
-  background-image: url("images/fashion/fashion-48.png");
+  background-image: url("images/fashion/fashion-48.jpg");
   background-size: cover;
   background-position: center;
   min-height: 100vh;
@@ -283,7 +284,7 @@ a:hover {
 
 hr {
   border: none;
-  border-bottom: 1px solid #7f2d50;
+  border-bottom: 1px solid #darkgray;
   width: 80%;
   margin: 1rem auto 2rem; /* top, left+right, bottom */
   padding: 0;
@@ -375,7 +376,7 @@ display: block;
 }
 
 .bg-portraits {
-  background-image: url("/images/home-portraits/house-20.jpg");
+  background-image: url("/images/home-portraits/home-20.jpg");
   background-size: cover;
   background-position: center;
   min-height:60vh;
@@ -387,7 +388,7 @@ display: block;
 
 }
 
-.home-1, .home-2, .home-3 {
+/* .home-1, .home-2, .home-3 {
     background-size: cover;
     background-position: center;
     padding-bottom:65%;
@@ -395,19 +396,19 @@ display: block;
     /* align-items: center;
     justify-content: center;  */
 
-}
-
+/* } */
+/*
 .home-1 {
-    background-image: url("images/home portraits/house-18.jpg");
+    background-image: url("images/home portraits/home-18.jpg");
 }
 
 .home-2 {
-    background-image: url("images/home portraits/house-24.jpg");
+    background-image: url("images/home portraits/home-24.jpg");
 }
 
 .home-3 {
-    background-image: url("images/home portraits/house-30.jpg");
-}
+    background-image: url("images/home portraits/home-30.jpg");
+} */
 
 /* - - - - - - - - -- -  PORTRAITS: PETS - - - -- - - - - - */
 
@@ -415,14 +416,14 @@ display: block;
   background-color: none;
 }
 
-.pet-1, .pet-2, .pet-3 {
+/* .pet-1, .pet-2, .pet-3 {
     background-size: cover;
     background-position: center;
     padding-bottom:65%;
     border-width: 5px;
 
-}
-
+} */
+/*
 .pet-1 {
     background-image: url("images/pet portraits/pet-1.jpg");
 }
@@ -433,11 +434,11 @@ display: block;
 
 .pet-3 {
     background-image: url("images/pet portraits/pet-3.jpg");
-}
+} */
 
 /* - - - - - - - - - - - - ILLUSTRATIONS HEADER- - - - - - - - - - - */
 
-.illustrations-text {
+/* .illustrations-text {
   background: rgba(255, 255, 255, 0.65);
   padding: 2.5rem 2.5rem 2.5rem 2.5rem;
   margin: auto;
@@ -454,52 +455,52 @@ display: block;
   background-size: cover;
   background-position: center;
   min-height:50vh;
-}
+} */
 /* - - - - - - - - - - ILLUSTRATIONS: Children's Books - - - - - - - - - - */
 .children-gallery {
-  background-color: white;
+  background-color: none;
 
 }
 
-.children-1, .children-2, .children-3 {
+/* .children-1, .children-2, .children-3 {
     background-size: cover;
     background-position: center;
     padding-bottom:85%;
-    border-width: 5px;
+    border-width: 5px; */
     /* align-items: center;
     justify-content: center;  */
 
 }
 
-.children-1 {
-    background-image: url("images/home portraits/house-18.jpg");
+/* .children-1 {
+    background-image: url("images/home-portraits/home-18.jpg");
 }
 
 .children-2 {
-    background-image: url("images/home portraits/house-24.jpg");
+    background-image: url("images/home-portraits/home-24.jpg");
 }
 
 .children-3 {
-    background-image: url("images/home portraits/house-30.jpg");
+    background-image: url("images/home-portraits/home-30.jpg");
 
-}
+} */
 
 /*  - - - - - - - - - - ILLUSTRATIONS: FASHION + TEXTILES - - - - - - - - - -*/
 
 .fashion-gallery {
-  background-color: #95ce95;
+  background-color: #99ab77;
 
 }
 
-.fashion-1, .fashion-2, .fashion-3 {
+/* .fashion-1, .fashion-2, .fashion-3 {
     background-size: contain;
     background-position: center;
     padding-bottom:100%;
     border-width: 5px;
 
-}
+} */
 
-.fashion-1 {
+/* .fashion-1 {
     background-image: url("images/fashion/fashion-20.jpg");
 }
 
@@ -509,16 +510,16 @@ display: block;
 
 .fashion-3 {
     background-image: url("images/fashion/fashion-25.jpg");
-  }
+  } */
 
   /*  - - - - - - - - - - ILLUSTRATIONS: BESPOKE PROJECTS - - - - - - - - - -*/
 
   .bespoke-gallery {
-    background-color: white;
+    background-color: #E6E6EE;
 
   }
 
-  .bespoke-1, .bespoke-2, .bespoke-3 {
+  /* .bespoke-1, .bespoke-2, .bespoke-3 {
       background-size: contain;
       background-position: center;
       padding-bottom:100%;
@@ -536,16 +537,17 @@ display: block;
 
   .bespoke-3 {
       background-image: url("images/bespoke/bespoke-26.jpg");
-    }
+    } */
 /*-- -  - - - - - - - - - - INSTAGRAM - - - - - - - - - - - - - - - -- - - --*/
 .insta-feed {
+  background-color: 
   align-content: center;
   width: 100%;
 }
 
 /*-- -  - - - - - - - - - - TESTIMONIALS - - - - - - - - - - - - - - - -- - - --*/
 .bg-reviews {
-  background-color: lightgrey;
+  background-color: #E6E6EE;
 }
 
 .headline {
@@ -564,7 +566,7 @@ display: block;
 /* - - - - - - - - - - - SECTION: CONNECT - - - - - - - - - - - - - - - */
 
 input, textarea {
-  background-color: #fff;
+  background-color: #E6E6EE;
   color: black;
   font-size: 1rem;
 /*   height: 25px;; */
