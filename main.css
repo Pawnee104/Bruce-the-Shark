@@ -13,48 +13,72 @@ Website Fonts: List fonts here for reference
 Website Colours: List colour hex codes here for reference
 ----------------------------
 */
-
-
-
 /* ---- CSS RESET --------------------------- */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-    /* transition:2s */
+  /* transition:2s */
 }
 
-section *:hover{
+section *:hover {
   /* transform:rotate(90deg) */
 }
 
 img {
-  max-width: 100%; /* This ensures an image never breaks it's container */
+  max-width: 100%;
+  /* This ensures an image never breaks it's container */
 }
 
-[class*="grid-"], [class*="grid_"], [class~="grid"]{
+[class*="grid-"], [class*="grid_"], [class~="grid"] {
   margin: 0;
-
 }
+
 /* ---- GENERAL HELPER CLASSES --------------------------- */
-.tall         { min-height:100vh; }
-.med-height   { min-height: 50vh; }
+.tall {
+  min-height: 100vh;
+}
 
-.left         { text-align: left; }
-.centered     { text-align: center; }
-.right        { text-align: right; }
+.med-height {
+  min-height: 50vh;
+}
 
-.no-padding { padding: 0; }
+.left {
+  text-align: left;
+}
+
+.centered {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.no-padding {
+  padding: 0;
+}
 
 .padded-1,
-[class*=col].padded-1 { padding: 1%; }
+[class*=col].padded-1 {
+  padding: 1%;
+}
 
-.padded-3 { padding: 3%; }
-.padded-5 { padding: 5%; }
+.padded-3 {
+  padding: 3%;
+}
 
-.padded-top-1 { padding-top: 1%;}
+.padded-5 {
+  padding: 5%;
+}
 
-.mob-show { display: none;}
+.padded-top-1 {
+  padding-top: 1%;
+}
+
+.mob-show {
+  display: none;
+}
 
 .bg-img {
   background-color: grey;
@@ -63,11 +87,11 @@ img {
 }
 
 /* ----- UNIVERSAL STYLES --------------------------- */
-
 .bg-featured {
   background-color: #1abc9c;
   color: white;
 }
+
 .bg-dark {}
 
 .bg-light {}
@@ -84,7 +108,7 @@ section {
 
 body {
   font-family: 'Montserrat', san-serif;
-  color: rgb(60,60,65);
+  color: rgb(60, 60, 65);
   background-color: #edf7f6
 }
 
@@ -96,13 +120,16 @@ h1, h2, h3, h4, nav {
   text-align: center;
   margin-bottom: 0.5em;
 }
+
 h1 {
   font-size: 3vw;
   line-height: 0.9em;
 }
+
 h2 {
   font-size: 2em;
 }
+
 h3 {
   font-size: 1.5em;
 }
@@ -114,20 +141,21 @@ h3 {
 .fa {
   font-size: 2.5em;
   margin: 0 0 0.5em;
-  color: #1abc9c; /* featured-color */
+  color: #1abc9c;
+  /* featured-color */
 }
-
 
 /* this is where you style the button if you want to add more space between the spans than add padding to this div but make sure you also add it to the top and bottom active classes on there top/bottom or else your cross wont line up*/
 .burger-button {
-  position:fixed;
+  position: fixed;
   top: 2vh;
   right: 2vh;
   z-index: 9999999999;
   padding: 8px;
 }
+
 /*this is where you can chand the color of the buttons*/
-.burger-button span{
+.burger-button span {
   width: 25px;
   border: 2px solid black;
   background-color: black;
@@ -135,55 +163,55 @@ h3 {
   border-radius: 22px;
   transition: 2s;
 }
-.burger-button.active span{
+
+.burger-button.active span {
   border-color: #383;
-  background-color:#383;
+  background-color: #383;
 }
 
-.burger-top, .burger-bottom{
+.burger-top, .burger-bottom {
   position: absolute;
 }
 
-.burger-top{
+.burger-top {
   top: 02px;
 }
 
-.burger-bottom{
+.burger-bottom {
   bottom: 02px;
 }
+
 /* make sure this has the same top as the burger button has padding*/
-.burger-button.active .burger-top{
+.burger-button.active .burger-top {
   position: absolute;
   top: 8px;
   transform: rotateZ(45deg);
 }
 
-.burger-button.active .burger-middle{
+.burger-button.active .burger-middle {
   transform: rotateZ(270deg);
-  border-color: rgba(0,0,0,0);
-  background-color:rgba(0,0,0,0);
+  border-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
 }
 
 /* make sure this has the same bottom as the burger button has padding*/
-
-.burger-button.active .burger-bottom{
+.burger-button.active .burger-bottom {
   position: absolute;
   bottom: 8px;
   transform: rotateZ(-45deg);
 }
 
-
 .burger-menu {
-    display: none;
-    position: fixed;
-    top: 0;
-    left:0;
-    right: 0;
-    bottom: 0;
-    background-color: #f9f9f9;
-    padding:5px;
-    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
-    z-index: 99999999;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #f9f9f9;
+  padding: 5px;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+  z-index: 99999999;
 }
 
 .burger-menu a {
@@ -193,18 +221,20 @@ h3 {
   font-weight: 300;
   color: #C3BFBC;
   font-family: 'Alegreya Sans SC', sans-serif;
-  display:block;
-  padding:5px 15px;
-  text-align:center;
-  white-space:nowrap;
+  display: block;
+  padding: 5px 15px;
+  text-align: center;
+  white-space: nowrap;
 }
 
-.burger-menu li{list-style:none}
+.burger-menu li {
+  list-style: none
+}
+
 /*
 .dropdown-nav:hover .dropdown-content {
     display: block;
 } */
-
 a {
   color: #7f941d;
   text-decoration: none;
@@ -213,7 +243,7 @@ a {
 
 a:hover {
   color: lightgrey;
-  transition:all .5s;
+  transition: all .5s;
 }
 
 .arrow-button {
@@ -225,12 +255,11 @@ a:hover {
   right: 0;
   left: 0;
   text-align: center;
-
 }
 
 .arrow-button .fa-angle-down {
-    font-size: 6rem;
-    color: white;
+  font-size: 6rem;
+  color: white;
 }
 
 .stars {
@@ -241,18 +270,17 @@ a:hover {
 }
 
 /* Gallery Styles */
-
 .gallery-image {
-    background-size: cover;
-    /* background-repeat: no-repeat; */
-    background-position: center;
-    padding-bottom:100%;
-    border-width: 5px;
-    margin-bottom: 1rem;
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  background-position: center;
+  padding-bottom: 100%;
+  border-width: 5px;
+  margin-bottom: 1rem;
 }
 
 .gallery-item a {
-  padding:0;
+  padding: 0;
 }
 
 .bespoke-gallery .gallery-image {
@@ -272,45 +300,43 @@ a:hover {
   margin-bottom: 30px;
   margin-bottom: 20px;
 }
+
 .bg-pattern {
   background-image: url("images/fashion/fashion-48.jpg");
   background-size: cover;
   background-position: center;
   min-height: 100vh;
-
 }
 
 /* - - - - - - - - - - - - - - -- ABOUT - - -- - - - - - - - - - - - - - -  */
-
 hr {
   border: none;
   border-bottom: 1px solid darkgray;
   width: 80%;
-  margin: 1rem auto 2rem; /* top, left+right, bottom */
+  margin: 1rem auto 2rem;
+  /* top, left+right, bottom */
   padding: 0;
 }
 
 .bg-Elyse {
-background-image: url("/images/elyse/elyse-1.jpg");
-background-size: cover;
-background-position: center;
-border-radius: 100%;
-width: 20vw;
-height: 20vw;
-margin-left: auto;
-margin-right: auto;
-display: block;
+  background-image: url("/images/elyse/elyse-1.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 100%;
+  width: 20vw;
+  height: 20vw;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
-
 
 .opening, .signature {
   font-family: 'Dancing Script', cursive;
-  font-size:1.5rem;
+  font-size: 1.5rem;
   font-weight: 700;
-  text-align:left;
+  text-align: left;
   padding: 3% 3em;
   margin-bottom: 2px;
-
 }
 
 .bio-text {
@@ -336,39 +362,35 @@ display: block;
   text-align: center;
   display: flex;
   border-radius: 100%;
-
 }
 
 .flex-spacer {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-
 }
 
- .bg-circle-2 {
-    background-image: url("images/fashion/fashion-26.jpg");
-  }
+.bg-circle-2 {
+  background-image: url("images/fashion/fashion-26.jpg");
+}
 
 .bg-circle-3 {
-    background-image: url("images/fashion/fashion-34.jpg");
-  }
+  background-image: url("images/fashion/fashion-34.jpg");
+}
 
 .bg-circle-4 {
-    background-image: url("images/fashion/fashion-24.jpg");
-  }
+  background-image: url("images/fashion/fashion-24.jpg");
+}
 
 .bg-circle-5 {
   background-image: url("images/children/children-summer-6.jpg");
-  }
+}
 
 .bg-circle-6 {
   background-image: url("images/fashion/fashion-27.jpg");
-  }
-
+}
 
 /* - - - - - - - - - - - - PORTRAITS: HEADER - - - -- - - - - - - - - */
-
 .portrait-text {
   background: rgba(255, 255, 255, 0.65);
   padding: 2.5rem 2.5rem 2.5rem 2.5rem;
@@ -377,8 +399,9 @@ display: block;
   justify-content: center;
   text-align: center;
 }
+
 .portrait-text a {
-  padding:1% 12%;
+  padding: 1% 12%;
   display: inline-block;
 }
 
@@ -386,13 +409,12 @@ display: block;
   background-image: url("/images/home-portraits/home-20.jpg");
   background-size: cover;
   background-position: center;
-  min-height:60vh;
+  min-height: 60vh;
 }
-  /* - - - - - - - - -- -  PORTRAITS: HOMES - - - -- - - - - - */
 
+/* - - - - - - - - -- -  PORTRAITS: HOMES - - - -- - - - - - */
 .home-gallery {
   background-color: none;
-
 }
 
 /* .home-1, .home-2, .home-3 {
@@ -402,7 +424,6 @@ display: block;
     border-width: 5px;
     /* align-items: center;
     justify-content: center;  */
-
 /* } */
 /*
 .home-1 {
@@ -416,9 +437,7 @@ display: block;
 .home-3 {
     background-image: url("images/home portraits/home-30.jpg");
 } */
-
 /* - - - - - - - - -- -  PORTRAITS: PETS - - - -- - - - - - */
-
 .pet-gallery {
   background-color: none;
 }
@@ -442,9 +461,7 @@ display: block;
 .pet-3 {
     background-image: url("images/pet portraits/pet-3.jpg");
 } */
-
 /* - - - - - - - - - - - - ILLUSTRATIONS HEADER- - - - - - - - - - - */
-
 .illustrations-text {
   background: rgba(255, 255, 255, 0.65);
   padding: 2.5rem 2.5rem 2.5rem 2.5rem;
@@ -453,20 +470,21 @@ display: block;
   justify-content: center;
   text-align: center;
 }
+
 .illustration-text a {
-  padding:1% 12%;
+  padding: 1% 12%;
 }
 
 .bg-illustrations {
   background-image: url("images/fashion/fashion-27.jpg");
   background-size: cover;
   background-position: center;
-  min-height:50vh;
+  min-height: 50vh;
 }
+
 /* - - - - - - - - - - ILLUSTRATIONS: Children's Books - - - - - - - - - - */
 .children-gallery {
   background-color: none;
-
 }
 
 /* .children-1, .children-2, .children-3 {
@@ -474,9 +492,8 @@ display: block;
     background-position: center;
     padding-bottom:85%;
     border-width: 5px; */
-    /* align-items: center;
+/* align-items: center;
     justify-content: center;  */
-
 }
 
 /* .children-1 {
@@ -491,12 +508,9 @@ display: block;
     background-image: url("images/home-portraits/home-30.jpg");
 
 } */
-
 /*  - - - - - - - - - - ILLUSTRATIONS: FASHION + TEXTILES - - - - - - - - - -*/
-
 .fashion-gallery {
   background-color: none;
-
 }
 
 /* .fashion-1, .fashion-2, .fashion-3 {
@@ -506,7 +520,6 @@ display: block;
     border-width: 5px;
 
 } */
-
 /* .fashion-1 {
     background-image: url("images/fashion/fashion-20.jpg");
 }
@@ -518,15 +531,12 @@ display: block;
 .fashion-3 {
     background-image: url("images/fashion/fashion-25.jpg");
   } */
+/*  - - - - - - - - - - ILLUSTRATIONS: BESPOKE PROJECTS - - - - - - - - - -*/
+.bespoke-gallery {
+  background-color: none;
+}
 
-  /*  - - - - - - - - - - ILLUSTRATIONS: BESPOKE PROJECTS - - - - - - - - - -*/
-
-  .bespoke-gallery {
-    background-color: none;
-
-  }
-
-  /* .bespoke-1, .bespoke-2, .bespoke-3 {
+/* .bespoke-1, .bespoke-2, .bespoke-3 {
       background-size: contain;
       background-position: center;
       padding-bottom:100%;
@@ -548,12 +558,15 @@ display: block;
 /*-- -  - - - - - - - - - - INSTAGRAM - - - - - - - - - - - - - - - -- - - --*/
 .bg-instagram {
   background-color: #bfb2c4;
+}
 
-  }
+.bg-instagram a {
+  font-weight: 700;
+}
 
-  .insta-feed {
+.insta-feed {
   background-color:
-  align-content: center;
+    align-content: center;
   width: 100%;
 }
 
@@ -566,7 +579,6 @@ display: block;
   text-align: center;
   max-width: 600px;
   margin: auto;
-
 }
 
 .credit {
@@ -579,17 +591,9 @@ display: block;
   padding-bottom: 5%;
 }
 
-footer {
-  background-color: #bfb2c4;
-
-}
-footer a {
-  padding:0;
-}
 /* - - - - - - - - - - - SECTION: CONNECT - - - - - - - - - - - - - - - */
-
 .email,
-.shop  {
+.shop {
   font-weight: 600;
 }
 
@@ -601,41 +605,45 @@ input, textarea {
   background-color: #E6E6EE;
   color: black;
   font-size: 1rem;
-/*   height: 25px;; */
+  /*   height: 25px;; */
   max-width: 450px;
   width: 100%;
   padding: .7%;
   margin: 2% auto;
   display: block;
-
 }
+
 ::placeholder {
   color: gray;
-  font-family: "Montserrat" , sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1rem;
 }
+
 textarea {
   resize: vertical;
 }
 
 .button {
-  background-color:#dca625;
+  background-color: #dca625;
   border: 1px;
-  border-radius:.25rem;
-  font-family: "Montserrat" , sans-serif;
+  border-radius: .25rem;
+  font-family: "Montserrat", sans-serif;
   color: white;
 }
+
 .button:hover {
   background-color: #445a43;
   border-color: #445a43;
   color: white;
 }
+
 input:focus {
   background-color: #ffffcc;
   border-color: #ffffcc;
   color: white;
   outline: none;
 }
+
 textarea:focus {
   background-color: #ffffcc;
   border-color: #ffffcc;
@@ -643,66 +651,79 @@ textarea:focus {
   outline: none;
 }
 
+/* - - - - - - - - - - - - FOOTER - - - - - - - - - - - - - -   */
+footer {
+  background-color: #bfb2c4;
+  /* padding-top: 3vh; */
+}
+
+.bg-footer {
+  padding-top: 3vh;
+}
+
+footer a {
+  padding: 0;
+}
+
 .social {
   font-size: 2rem;
   text-align: center;
   padding: 2%;
-  color:purple;
+  color: purple;
 
-/* Individual Blog Post Styles */
-
-.sidebar div {
-    border: 2px solid rgb(200,200,200);
+  /* Individual Blog Post Styles */
+  .sidebar div {
+    border: 2px solid rgb(200, 200, 200);
     margin-bottom: 1rem;
     padding: 5%;
-}
-
-.post-info p {
-  font-size: 1rem;
-  font-style: normal
-  text-align: left;
-}
-
-/* Blog.html page Styles */
-/* add css styles for "Recent Posts" page here */
-.post-preview div {
-  margin-bottom: 1rem;
-  padding: 5%;
-}
-
-.post-info p {
-  font-size: 1rem;
-  font-style: normal
-  text-align: left;
-}
-
-.post-desc {
-  font-size: 12px;
-  color: featured.color;
-}
-
-.post-date {
-  font-size: 10px;
-
-}
-
-.post-author {
-  font-size: 12px;
-  font-weight: 900;
-
-}
-/*  - - - - - - - - - - -  MEDIA QUERIES - - - - - - - - - - - -- */
-@media (max-width: 576px) {
-  .mob-show {
-    display: block;}
-  .mob-hide {
-    display: none;
   }
-  .mobile-gallery-skim :nth-child(n+6) {
-    display:none;
-}
-[class*="sm-hidden"] {
-  display: none;
-}
 
-}
+  .post-info p {
+    font-size: 1rem;
+    font-style: normal text-align: left;
+  }
+
+  /* Blog.html page Styles */
+  /* add css styles for "Recent Posts" page here */
+  .post-preview div {
+    margin-bottom: 1rem;
+    padding: 5%;
+  }
+
+  .post-info p {
+    font-size: 1rem;
+    font-style: normal text-align: left;
+  }
+
+  .post-desc {
+    font-size: 12px;
+    color: featured.color;
+  }
+
+  .post-date {
+    font-size: 10px;
+  }
+
+  .post-author {
+    font-size: 12px;
+    font-weight: 900;
+  }
+
+  /*  - - - - - - - - - - -  MEDIA QUERIES - - - - - - - - - - - -- */
+  @media (max-width: 576px) {
+    .mob-show {
+      display: block;
+    }
+
+    .mob-hide {
+      display: none;
+    }
+
+    .mobile-gallery-skim :nth-child(n+6) {
+      display: none;
+    }
+
+    [class*="sm-hidden"] {
+      display: none;
+    }
+  }
