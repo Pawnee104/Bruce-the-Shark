@@ -323,7 +323,7 @@ display: block;
 }
 
 .span-text {
-  font-weight: 900;
+  font-weight: 600;
 }
 
 [class*=bg-circle-] {
@@ -347,7 +347,7 @@ display: block;
 }
 
  .bg-circle-2 {
-    background-image: url("images/fashion/fashion-24.jpg");
+    background-image: url("images/fashion/fashion-26.jpg");
   }
 
 .bg-circle-3 {
@@ -355,7 +355,7 @@ display: block;
   }
 
 .bg-circle-4 {
-    background-image: url("images/fashion/fashion-26.jpg");
+    background-image: url("images/fashion/fashion-24.jpg");
   }
 
 .bg-circle-5 {
@@ -547,7 +547,7 @@ display: block;
     } */
 /*-- -  - - - - - - - - - - INSTAGRAM - - - - - - - - - - - - - - - -- - - --*/
 .bg-instagram {
-  background-color: #bdf0f5;
+  background-color: #bfb2c4;
 
   }
 
@@ -584,6 +584,11 @@ footer a {
   padding:0;
 }
 /* - - - - - - - - - - - SECTION: CONNECT - - - - - - - - - - - - - - - */
+
+.email,
+.shop  {
+  font-weight: 600;
+}
 
 form {
   padding: 1% 3rem;
@@ -634,6 +639,13 @@ textarea:focus {
   color: white;
   outline: none;
 }
+
+.social {
+  font-size: 2rem;
+  text-align: center;
+  padding: 2%;
+  color:purple;
+
 /* Individual Blog Post Styles */
 
 .sidebar div {
@@ -674,13 +686,7 @@ textarea:focus {
 .post-author {
   font-size: 12px;
   font-weight: 900;
-}
 
-.social {
-  font-size: 2rem;
-  text-align: center;
-  padding: 2%;
-  color:purple;
 }
 /*  - - - - - - - - - - -  MEDIA QUERIES - - - - - - - - - - - -- */
 @media (max-width: 576px) {
