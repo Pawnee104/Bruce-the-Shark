@@ -301,6 +301,11 @@ a:hover {
   margin-bottom: 20px;
 }
 
+.mob-hide {
+
+  padding: 2%;
+}
+
 .bg-pattern {
   background-image: url("images/fashion/fashion-48.jpg");
   background-size: cover;
