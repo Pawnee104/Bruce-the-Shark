@@ -291,7 +291,7 @@ a:hover {
 .header-text {
   background: rgba(255, 255, 255, 0.65);
   padding: 2.5rem;
-  margin: auto;
+  /* margin: auto; */
   align-items: center;
   justify-content: center;
 }
@@ -637,8 +637,8 @@ textarea {
 }
 
 .button:hover {
-  background-color: #445a43;
-  border-color: #445a43;
+  background-color: #7f941d;
+  border-color: #7f941d;
   color: white;
 }
 
