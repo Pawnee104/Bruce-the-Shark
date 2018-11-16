@@ -290,7 +290,10 @@ a:hover {
 /* - - - - - - - - - - - - - - HEADER - - - - - - - - - - - - - - - - - -- */
 .header-text {
   background: rgba(255, 255, 255, 0.65);
-  padding: 2.5rem;
+  padding-top: 2.5rem;
+  padding-right: 2.5rem;
+  padding-bottom: 2.0rem
+  padding-left: 2.5rem;
   margin: auto;
   align-items: center;
   justify-content: center;
