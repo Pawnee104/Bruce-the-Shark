@@ -297,7 +297,8 @@ a:hover {
 }
 
 .header-text h1, h2 {
-  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .mob-hide {
