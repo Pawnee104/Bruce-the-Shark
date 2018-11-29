@@ -485,6 +485,7 @@ hr {
   background-size: cover;
   background-position: center;
   min-height: 50vh;
+  padding: 3vh 5%;
 }
 
 /* - - - - - - - - - - ILLUSTRATIONS: Children's Books - - - - - - - - - - */
@@ -713,6 +714,8 @@ footer a {
     font-size: 12px;
     font-weight: 900;
   }
+
+  /* - - - - - - - - - - -SCROLL BUTTON - - - - - - - - - - -- - */
 
   /*  - - - - - - - - - - -  MEDIA QUERIES - - - - - - - - - - - -- */
   @media (max-width: 576px) {
