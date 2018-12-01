@@ -335,7 +335,7 @@ hr {
   display: block;
 }
 
-.opening, .signature {
+.bio-text-opening, .bio-text-signature {
   font-family: 'Dancing Script', cursive;
   font-size: 1.5rem;
   font-weight: 700;
@@ -353,8 +353,8 @@ hr {
   line-height: 2;
 }
 
-.span-text {
-  font-weight: 600;
+.bio-text span {
+  font-weight: bold;
 }
 
 [class*=bg-circle-] {
