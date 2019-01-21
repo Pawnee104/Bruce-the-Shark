@@ -612,7 +612,7 @@ input, textarea {
   color: black;
   font-size: 1rem;
   /*   height: 25px;; */
-  max-width: 450px;
+  max-width: 500px;
   width: 100%;
   padding: .7%;
   margin: 2% auto;
