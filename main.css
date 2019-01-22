@@ -257,8 +257,8 @@ a:hover {
   text-align: center;
 }
 
-.arrow-button .fa-arrow-circle-down {
-  font-size: 8rem;
+.arrow-button .fa-angle-double-down {
+  font-size: 6rem;
   color: white;
 }
 
