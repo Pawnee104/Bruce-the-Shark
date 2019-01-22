@@ -257,7 +257,7 @@ a:hover {
   text-align: center;
 }
 
-.arrow-button .fa-angle-down {
+.arrow-button .fa-arrow-circle-down {
   font-size: 8rem;
   color: white;
 }
@@ -266,7 +266,8 @@ a:hover {
   color: black;
   font-size: 1rem;
   text-align: left;
-  bottom: 8px;
+  /* bottom: 8px; */
+  padding-bottom: 2%
 }
 
 /* Gallery Styles */
