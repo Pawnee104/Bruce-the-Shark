@@ -131,7 +131,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.5em;
+  font-size: 2em;
 }
 
 .col, [class*=col-] {
@@ -266,7 +266,7 @@ a:hover {
   color: black;
   font-size: 1rem;
   text-align: left;
-  /* bottom: 8px; */
+  bottom: 8px;
   padding-bottom: 2%
 }
 
@@ -336,16 +336,17 @@ hr {
   display: block;
 }
 
-.bio-text-opening, .bio-text-signature {
+.bio-text-opening, .bio-text-signature, .gallery-text {
   font-family: 'Dancing Script', cursive;
   font-size: 1.5rem;
   font-weight: 700;
-  text-align: left;
+  text-align: center;
   padding: 3% 3em;
   margin-bottom: 2px;
 }
 
 .bio-text {
+  font-family: 'Montserrat', san-serif;
   font-weight: 400;
   text-align: left;
   padding: 1%;
