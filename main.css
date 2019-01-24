@@ -494,11 +494,11 @@ hr {
 }
 
 .bg-illustrations {
-  background-image: url("images/fashion/fashion-27.jpg");
+  background-image: url("images/fashion/fashion-28.jpg");
   background-size: cover;
   background-position: center;
   min-height: 50vh;
-  padding: 3vh 4%;
+  padding: 3vh 5%;
 }
 
 /* - - - - - - - - - - ILLUSTRATIONS: Children's Books - - - - - - - - - - */
@@ -577,6 +577,7 @@ hr {
 /*-- -  - - - - - - - - - - INSTAGRAM - - - - - - - - - - - - - - - -- - - --*/
 .bg-instagram {
   background-color: #bfb2c4;
+  padding-bottom: 2%;
 }
 
 .bg-instagram a {
