@@ -108,7 +108,7 @@ section {
 
 body {
   font-family: 'Montserrat', san-serif;
-  text-align: center;
+  text-align: left;
   color: rgb(60, 60, 65);
   background-color: #edf7f6
 }
@@ -359,6 +359,7 @@ hr {
 
 .bio-text span {
   font-weight: bold;
+  text-align: center;
 }
 
 [class*=bg-circle-] {
