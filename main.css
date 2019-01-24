@@ -498,7 +498,7 @@ hr {
   background-size: cover;
   background-position: center;
   min-height: 50vh;
-  /* padding: 3vh 5%; */
+  padding: 3vh 5%;
 }
 
 /* - - - - - - - - - - ILLUSTRATIONS: Children's Books - - - - - - - - - - */
@@ -625,6 +625,7 @@ hr {
 form {
   width: 100%;
   padding: 0% 2rem 1%;
+  display: block;
 }
 
 input, textarea {
@@ -696,6 +697,8 @@ footer a {
   text-align: center;
   padding: 2%;
   color: purple;
+  display: inline-block;
+}
 
   /* Individual Blog Post Styles */
   .sidebar div {
