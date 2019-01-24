@@ -103,7 +103,7 @@ img {
 }
 
 section {
-  padding: 0% 4% 2.5vh;
+  padding: 0% 4% 5vh;
 }
 
 body {
@@ -299,8 +299,8 @@ a:hover {
 }
 
 .header-text h1, h2 {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .mob-hide {
