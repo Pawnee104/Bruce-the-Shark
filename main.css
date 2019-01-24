@@ -16,7 +16,7 @@ Website Colours: List colour hex codes here for reference
 /* ---- CSS RESET --------------------------- */
 * {
   margin: 0;
-  padding: inherit;
+  padding: 0;
   box-sizing: border-box;
   /* transition:2s */
 }
@@ -136,7 +136,7 @@ h3 {
 }
 
 .col, [class*=col-] {
-  padding: 3%;
+  padding: 2.5%;
 }
 
 .fa {
@@ -613,7 +613,8 @@ hr {
 }
 
 form {
-  padding: 0% 3rem 1%;
+  width: 100%;
+  padding: 0% 2rem 1%;
 }
 
 input, textarea {
