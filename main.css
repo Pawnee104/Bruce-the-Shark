@@ -269,7 +269,7 @@ a:hover {
   font-size: 1rem;
   text-align: left;
   bottom: 8px;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 /* Gallery Styles */
@@ -350,7 +350,7 @@ hr {
 .bio-text {
   font-family: 'Montserrat', san-serif;
   font-weight: 400;
-  text-align: left;
+  text-align: center;
   padding: 1%;
   margin-bottom: 1px;
   margin-top: 5px;
@@ -603,7 +603,7 @@ hr {
 }
 
 .stars {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 /* - - - - - - - - - - - SECTION: CONNECT - - - - - - - - - - - - - - - */
