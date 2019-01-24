@@ -424,7 +424,7 @@ hr {
 
 .gallery-text {
   font-family: 'Dancing Script', cursive;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 600;
   text-align: center;
   padding: 0;
@@ -498,7 +498,7 @@ hr {
   background-size: cover;
   background-position: center;
   min-height: 50vh;
-  padding: 3vh 5%;
+  padding: 3vh 4%;
 }
 
 /* - - - - - - - - - - ILLUSTRATIONS: Children's Books - - - - - - - - - - */
