@@ -494,11 +494,11 @@ hr {
 }
 
 .bg-illustrations {
-  background-image: url("images/fashion/fashion-28.jpg");
+  background-image: url("images/fashion/fashion-27.jpg");
   background-size: cover;
   background-position: center;
   min-height: 50vh;
-  padding: 3vh 5%;
+  /* padding: 3vh 5%; */
 }
 
 /* - - - - - - - - - - ILLUSTRATIONS: Children's Books - - - - - - - - - - */
@@ -695,7 +695,6 @@ footer a {
   font-size: 2rem;
   text-align: center;
   padding: 2%;
-  position: absolute;
   color: purple;
 
   /* Individual Blog Post Styles */
