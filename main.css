@@ -108,6 +108,7 @@ section {
 
 body {
   font-family: 'Montserrat', san-serif;
+  text-align: center;
   color: rgb(60, 60, 65);
   background-color: #edf7f6
 }
@@ -268,7 +269,7 @@ a:hover {
   font-size: 1rem;
   text-align: left;
   bottom: 8px;
-  padding-bottom: 5%;
+  margin-bottom: 1rem;
 }
 
 /* Gallery Styles */
@@ -601,7 +602,7 @@ hr {
 }
 
 .stars {
-  padding-bottom: 5%;
+  margin-bottom: 1rem;
 }
 
 /* - - - - - - - - - - - SECTION: CONNECT - - - - - - - - - - - - - - - */
