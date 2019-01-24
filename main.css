@@ -695,6 +695,7 @@ footer a {
   font-size: 2rem;
   text-align: center;
   padding: 2%;
+  position: absolute;
   color: purple;
 
   /* Individual Blog Post Styles */
