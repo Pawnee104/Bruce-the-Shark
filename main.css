@@ -628,7 +628,9 @@ form {
   width: 100%;
   padding: 4% 2rem 4%;
   margin-top: auto;
+  margin-right: auto;
   margin-bottom: auto;
+  margin-left: auto;
   display: block;
   border-radius: 4px;
   background-color: #4f2632;
