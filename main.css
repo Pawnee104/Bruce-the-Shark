@@ -353,10 +353,10 @@ hr {
   text-align: center;
   padding: 1%;
   margin-top: 3px;
-  margin-right: 5%;
+  margin-right: 10%;
   margin-bottom: 1px;
-  margin-left: 5%;
-  line-height: 1.75;
+  margin-left: 10%;
+  line-height: 2;
 }
 
 .bio-text span {
