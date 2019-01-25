@@ -110,7 +110,9 @@ body {
   font-family: 'Montserrat', san-serif;
   text-align: left;
   color: rgb(60, 60, 65);
-  background-color: #edf7f6
+  background-color: #edf7f6;
+  margin-left: 70px;
+  margin-right: 70px;
 }
 
 h1, h2, h3, h4, nav {
