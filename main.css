@@ -627,6 +627,8 @@ hr {
 form {
   width: 100%;
   padding: 4% 2rem 4%;
+  position: relative;
+  box-sizing: border-box;
   margin-top: auto;
   margin-right: auto;
   margin-bottom: auto;
@@ -705,7 +707,7 @@ footer a {
   font-size: 2rem;
   text-align: center;
   padding: 2%;
-  color: purple;
+  color: #7f941d;
 }
 
   /* Individual Blog Post Styles */
