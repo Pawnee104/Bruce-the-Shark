@@ -431,6 +431,11 @@ hr {
   text-align: center;
   padding: 0;
   margin-bottom: 1.5px;
+}
+
+nav .section-text {
+  font-size: 3rem;
+}
 
 /* - - - - - - - - -- -  PORTRAITS: HOMES - - - -- - - - - - */
 .home-gallery {
