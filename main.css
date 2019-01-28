@@ -631,14 +631,14 @@ nav .section-text {
 
 form {
   width: 100%;
-  padding: 3% 2rem 3%;
+  padding: 1.5rem;
   position: relative;
   box-sizing: border-box;
   margin-top: auto;
   margin-right: auto;
   margin-bottom: auto;
   margin-left: auto;
-  display: grid;
+  display: block;
   justify-content: space-evenly;
   border-radius: 4px;
   background-color: #4f2632;
@@ -711,7 +711,7 @@ footer a {
 .social {
   font-size: 2rem;
   text-align: center;
-  padding: 2%;
+  /* padding: 2%; */
   color: #7f941d;
 }
 
