@@ -667,7 +667,7 @@ textarea {
 }
 
 .button {
-  background-color: #dca625;
+  background-color: #7f941d;
   border: 1px;
   border-radius: .25rem;
   font-family: "Montserrat", sans-serif;
@@ -675,8 +675,8 @@ textarea {
 }
 
 .button:hover {
-  background-color: #7f941d;
-  border-color: #7f941d;
+  background-color: #dca625;
+  border-color: #dca625;
   color: white;
 }
 
