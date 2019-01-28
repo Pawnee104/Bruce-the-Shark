@@ -638,11 +638,10 @@ form {
   margin-right: auto;
   margin-bottom: auto;
   margin-left: auto;
-  display: block;
+  display: grid;
   justify-content: space-evenly;
   border-radius: 4px;
   background-color: #4f2632;
-
 }
 
 input, textarea {
