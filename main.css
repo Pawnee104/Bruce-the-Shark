@@ -135,6 +135,10 @@ h3 {
   font-size: 2em;
 }
 
+section-text {
+  font-size: 1.5em;
+}
+
 .col, [class*=col-] {
   padding: 2.5%;
 }
@@ -632,12 +636,9 @@ nav .section-text {
 form {
   width: 100%;
   padding: 1.5rem;
+  margin: auto;
   position: relative;
   box-sizing: border-box;
-  margin-top: auto;
-  margin-right: auto;
-  margin-bottom: auto;
-  margin-left: auto;
   display: block;
   justify-content: space-evenly;
   border-radius: 4px;
