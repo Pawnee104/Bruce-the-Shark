@@ -320,6 +320,10 @@ a:hover {
   min-height: 100vh;
 }
 
+.fb-share-button {
+  text-align: center;
+  align-items: center;
+}
 /* - - - - - - - - - - - - - - -- ABOUT - - -- - - - - - - - - - - - - - -  */
 hr {
   border: none;
