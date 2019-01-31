@@ -329,7 +329,7 @@ hr {
   border: none;
   border-bottom: 1px solid darkgray;
   width: 80%;
-  margin: 1rem auto 2rem;
+  margin: 0 auto 0;
   /* top, left+right, bottom */
   padding: 0;
 }
