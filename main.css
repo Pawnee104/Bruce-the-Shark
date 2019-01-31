@@ -247,7 +247,7 @@ a {
 }
 
 a:hover {
-  color: lightgrey;
+  color: #dca625;
   transition: all .5s;
 }
 
