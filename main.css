@@ -323,7 +323,8 @@ a:hover {
 .fb-share-button {
   text-align: center;
   align-items: center;
-  padding-bottom: 2rem;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 /* - - - - - - - - - - - - - - -- ABOUT - - -- - - - - - - - - - - - - - -  */
 hr {
