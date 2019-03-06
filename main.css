@@ -414,7 +414,7 @@ hr {
 
 /* - - - - - - - - - - - - PORTRAITS: HEADER - - - -- - - - - - - - - */
 .portrait-text {
-  background: rgba(255, 255, 255, 0.65);
+  background: rgba(255, 255, 255, 0.75);
   padding: 2.5rem 2.5rem 2.5rem 2.5rem;
   margin: auto;
   align-items: center;
@@ -498,7 +498,7 @@ nav .section-text {
 } */
 /* - - - - - - - - - - - - ILLUSTRATIONS HEADER- - - - - - - - - - - */
 .illustrations-text {
-  background: rgba(255, 255, 255, 0.65);
+  background: rgba(255, 255, 255, 0.75);
   padding: 2.5rem 2.5rem 2.5rem 2.5rem;
   margin: auto;
   align-items: center;
@@ -594,7 +594,7 @@ nav .section-text {
 /*-- -  - - - - - - - - - - INSTAGRAM - - - - - - - - - - - - - - - -- - - --*/
 .bg-instagram {
   background-color: #bfb2c4;
-  padding-bottom: 2%;
+  padding-bottom: 4%;
 }
 
 .bg-instagram a {
@@ -720,6 +720,11 @@ footer a {
   text-align: center;
   /* padding: 2%; */
   color: #7f941d;
+}
+
+.social a {
+  padding: 0% 5%;
+
 }
 
   /* Individual Blog Post Styles */
