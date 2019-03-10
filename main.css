@@ -304,8 +304,8 @@ a:hover {
 }
 
 .header-text h1, h2 {
-  /* margin-top: 25px; */
-  margin-bottom: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .mob-hide {
@@ -322,8 +322,8 @@ a:hover {
 .fb-share-button {
   text-align: center;
   align-items: center;
-  padding-top: 0%;
-  padding-bottom: 0%;
+  /* padding-top: 1%;
+  padding-bottom: 1%; */
 }
 /* - - - - - - - - - - - - - - -- ABOUT - - -- - - - - - - - - - - - - - -  */
 hr {
@@ -339,7 +339,7 @@ hr {
   background-image: url("/images/elyse/elyse-1.jpg");
   background-size: cover;
   background-position: center;
-  border-radius: 100%;
+  border-radius: 50%;
   padding: 4px;
   width: 20vw;
   height: 20vw;
@@ -351,6 +351,7 @@ hr {
 element.style {
     border: 4px solid #7f941d;
 }
+
 .bio-text-opening, .bio-text-signature {
   font-family: 'Dancing Script', cursive;
   font-size: 2rem;
@@ -734,15 +735,14 @@ footer a {
 }
 
 .social {
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-align: center;
-  /* padding: 2%; */
+  padding: 2%;
   color: #7f941d;
 }
 
 .social a {
   padding: 0% 3%;
-
 }
 
   /* Individual Blog Post Styles */
