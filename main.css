@@ -655,6 +655,7 @@ nav .section-text {
 /* - - - - - - - - - - - SECTION: CONNECT - - - - - - - - - - - - - - - */
 .headline h2 {
   margin-top: 0;
+  padding-top:0;
 }
 
 .email,
