@@ -517,7 +517,6 @@ quotes:
 
 </section>
 <!-- - - - - - - - - Section: Home Portraits Gallery- - - - - - - - - --->
-
 <section class="home-gallery grid mobile-gallery-skim" id="homes">
 
   <h3 class="col-12 section-heading">Homes</h3>
@@ -525,7 +524,7 @@ quotes:
 
   {% for item in page.home-gallery limit:8 %}
 
-  <div class="col-6_col-3_xs-12-middle padded-1 gallery-item">
+  <div class="col-6_xs-12-middle padded-1 gallery-item">
     <a href="{{item.featured_image}}" data-lightbox="homes" data-title="{{item.heading}}">
       <div style="background-image:url({{item.featured_image}})" class="gallery-image"></div>
     </a>
