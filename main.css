@@ -539,6 +539,12 @@ nav .section-text {
 }
 
 /* - - - - - - - -- ILLUSTRATIONS: Newborn Photo Backgrounds - - - - - - - */
+.bio-text {
+  font-family: 'Montserrat', san-serif;
+  font-weight: 400;
+  text-align: centered;
+}
+
 .newborn-link {
   margin: auto;
   align-items: center;
