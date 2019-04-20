@@ -627,6 +627,9 @@ nav .section-text {
   /* width: 100%; */
 }
 
+.lightwidget-widget {
+  max-width: 100vw!important;
+}
 /*-- -  - - - - - - - - - - TESTIMONIALS - - - - - - - - - - - - - - - -- - - --*/
 .bg-reviews {
   background-color: none;
