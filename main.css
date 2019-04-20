@@ -547,6 +547,7 @@ nav .section-text {
   justify-content: center;
   text-align: center;
   padding: 0;
+  margin-bottom: 1.5px;
 }
 
 .newborn-link {
@@ -555,6 +556,7 @@ nav .section-text {
   justify-content: center;
   text-align: center;
   padding: 0;
+  margin-bottom: 1.5px;
 }
 /* - - - - - - - - - - ILLUSTRATIONS: Children's Books - - - - - - - - - - */
 .children-gallery {
