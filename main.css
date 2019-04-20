@@ -538,6 +538,11 @@ nav .section-text {
   padding: 3vh 5%;
 }
 
+/* - - - - - - - -- ILLUSTRATIONS: Newborn Photo Backgrounds - - - - - - - */
+.newborn-link {
+  text-align: center;
+  font-weignt: bold;
+}
 /* - - - - - - - - - - ILLUSTRATIONS: Children's Books - - - - - - - - - - */
 .children-gallery {
   background-color: none;
