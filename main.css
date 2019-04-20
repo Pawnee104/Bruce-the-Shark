@@ -540,8 +540,10 @@ nav .section-text {
 
 /* - - - - - - - -- ILLUSTRATIONS: Newborn Photo Backgrounds - - - - - - - */
 .newborn-link {
+  margin: auto;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  font-style: bold;
 }
 /* - - - - - - - - - - ILLUSTRATIONS: Children's Books - - - - - - - - - - */
 .children-gallery {
