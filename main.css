@@ -542,7 +542,10 @@ nav .section-text {
 .bio-text {
   font-family: 'Montserrat', san-serif;
   font-weight: 400;
-  text-align: centered;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .newborn-link {
