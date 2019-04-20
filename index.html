@@ -35,25 +35,24 @@ home-gallery:
   - featured_image: /images/home-portraits/home-26.png
   - featured_image: /images/home-portraits/home-27.png
 
-pet-gallery:
-  - featured_image: /images/pet-portraits/pet-collage.png
+newborn-gallery:
+  - featured_image: /images/newborn-backgrounds/newborn-1-collage.jpg
     heading:
-  - featured_image: /images/pet-portraits/pet-3.png
-    heading: "Stanley"
-  - featured_image: /images/pet-portraits/pet-2.png
-    heading: "Zeus"
-  - featured_image: /images/pet-portraits/pet-1.png
+  - featured_image: /images/newborn-backgrounds/newborn-2.jpg
     heading:
-  - featured_image: /images/pet-portraits/pet-4.png
+  - featured_image: /images/newborn-backgrounds/newborn-1.jpg
     heading:
-  - featured_image: /images/pet-portraits/pet-5.png
+  - featured_image: /images/newborn-backgrounds/newborn-3.jpg
     heading:
-  - featured_image: /images/pet-portraits/pet-6.png
-    heading: "Sadie"
-  - featured_image: /images/pet-portraits/pet-8.png
-    heading: "Cardiff the Collie"
-  - featured_image: /images/pet-portraits/pet-7.png
+  - featured_image: /images/newborn-backgrounds/newborn-4.jpg
     heading:
+  - featured_image: /images/newborn-backgrounds/newborn-5.jpg
+    heading:
+  - featured_image: /images/newborn-backgrounds/newborn-6.jpg
+    heading:
+  - featured_image: /images/newborn-backgrounds/newborn-7.jpg
+    heading:
+
 
 children-gallery:
   - featured_image: /images/children/children-dress-1.jpg
@@ -330,13 +329,14 @@ quotes:
 <section class="newborn-gallery grid mobile-gallery-skim" id="newborn">
 
   <h3 class="col-12 section-heading">Newborn Photography Backgrounds</h3>
+  <img
   <p class="col-12 gallery-text">Available for purchase via:</p>
   <a class="col-12 newborn-link" href="https://www.luisadunnphotographyshop.com/shop/?product_cat=elyse-whittaker-paek-designs"><strong>Luisa Dunn Photography</strong></a>
 
-  <!-- {% for item in page.pet-gallery limit:8 %}
+  {% for item in page.newborn-gallery limit:8 %}
 
   <div class="col-3_xs-12-middle padded-1 gallery-item">
-    <a href="{{item.featured_image}}" data-lightbox="pets" data-title="{{item.heading}}">
+    <a href="{{item.featured_image}}" data-lightbox="newborn" data-title="{{item.heading}}">
       <div style="background-image:url({{item.featured_image}})" class="gallery-image"></div>
     </a>
 
@@ -344,12 +344,12 @@ quotes:
 
   {% endfor %}
 
-  {% for item in page.pet-gallery offset:8 %}
+  {% for item in page.newborn-gallery offset:8 %}
 
 
-  <a href="{{item.featured_image}}" data-lightbox="pets" data-title="{{item.heading}}"></a>
+  <a href="{{item.featured_image}}" data-lightbox="newborn" data-title="{{item.heading}}"></a>
 
-  {% endfor %} -->
+  {% endfor %}
 
 </section>
 <br>
