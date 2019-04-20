@@ -740,6 +740,7 @@ textarea {
   font-family: "Montserrat", sans-serif;
   color: white;
   width: 25%;
+  text-align: center;
 }
 
 .button:hover {
