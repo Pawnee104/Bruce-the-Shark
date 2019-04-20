@@ -517,9 +517,9 @@ nav .section-text {
     background-image: url("images/pet portraits/pet-3.jpg");
 } */
 /* - - - - - - - - - - - - ILLUSTRATIONS HEADER- - - - - - - - - - - */
-.block {
+.block a{
   display: block;
-  padding: 2%;
+  padding: 1% 1%;
 }
 
 .illustrations-text {
