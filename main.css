@@ -519,6 +519,7 @@ nav .section-text {
 /* - - - - - - - - - - - - ILLUSTRATIONS HEADER- - - - - - - - - - - */
 .block {
   display: block;
+  padding: 0 5%;
 }
 
 .illustrations-text {
