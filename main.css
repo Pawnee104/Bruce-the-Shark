@@ -793,8 +793,9 @@ footer a {
 
 .copyright {
   font-family: 'Montserrat', san-serif;
-  font-weight: 600;
+  font-weight: 400;
   font-size: .75rem;
+  font-style: italic;
   margin: auto;
   align-items: center;
   justify-content: center;
