@@ -743,7 +743,7 @@ textarea {
   text-align: center;
   vertical-align: middle;
   justify-content: space-evenly;
-  display: block;
+  margin: auto;
 }
 
 .button:hover {
