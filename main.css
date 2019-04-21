@@ -791,6 +791,18 @@ footer a {
   padding: 0% 3%;
 }
 
+.copyright {
+  font-family: 'Montserrat', san-serif;
+  font-weight: 400;
+  font-size: .5rem;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
   /* Individual Blog Post Styles */
   .sidebar div {
     border: 2px solid rgb(200, 200, 200);
