@@ -744,6 +744,7 @@ textarea {
   vertical-align: middle;
   justify-content: space-evenly;
   margin: auto;
+  display: table-cell;
 }
 
 .button:hover {
@@ -795,7 +796,6 @@ footer a {
   font-family: 'Montserrat', san-serif;
   font-weight: 400;
   font-size: .75rem;
-  font-style: italic;
   margin: auto;
   align-items: center;
   justify-content: center;
