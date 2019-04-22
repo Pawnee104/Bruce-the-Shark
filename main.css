@@ -782,8 +782,9 @@ footer a {
 }
 
 .social {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   text-align: center;
+  font-weight: 600;
   padding: 2%;
   color: #7f941d;
 }
