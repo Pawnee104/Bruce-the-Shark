@@ -744,7 +744,7 @@ textarea {
   vertical-align: middle;
   justify-content: space-evenly;
   margin: auto;
-  webkit-appearance: none;
+  -webkit-appearance: none;
 }
 
 .button:hover {
