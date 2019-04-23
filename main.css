@@ -805,6 +805,19 @@ footer a {
   margin-bottom: 10px;
 }
 
+.site-credit {
+  font-family: 'Montserrat', san-serif;
+  font-weight: 400;
+  font-size: .75rem;
+  font-style: italic;
+  margin: auto;
+  align-items: right;
+  justify-content: right;
+  text-align: right;
+  padding: 2%;
+  margin-bottom: 10px;
+}
+
   /* Individual Blog Post Styles */
   .sidebar div {
     border: 2px solid rgb(200, 200, 200);
