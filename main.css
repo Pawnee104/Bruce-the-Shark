@@ -818,6 +818,18 @@ footer a {
   margin-bottom: 10px;
 }
 
+.KSW-Communications {
+  font-family: 'Montserrat', san-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2%;
+  margin-bottom: 10px;
+}
+
   /* Individual Blog Post Styles */
   .sidebar div {
     border: 2px solid rgb(200, 200, 200);
