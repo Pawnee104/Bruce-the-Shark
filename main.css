@@ -811,11 +811,14 @@ footer a {
   font-size: .75rem;
   font-style: italic;
   margin: auto;
-  align-items: right;
-  justify-content: right;
-  text-align: right;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   padding: 2%;
   margin-bottom: 10px;
+}
+.site-credit span {
+  font-weight: 600;
 }
 
   /* Individual Blog Post Styles */
