@@ -684,8 +684,12 @@ nav .section-text {
 .fa-quote-right {
   text-align: center;
   font-size: 6em;
+  margin: auto;
+  position: relative;
+  display: block;
+  justify-content: space-evenly;
   font-weight: bold;
-  color: #7f941d; 
+  color: #7f941d;
 }
 /* - - - - - - - - - - - SECTION: CONNECT - - - - - - - - - - - - - - - */
 .headline h2 {
