@@ -681,9 +681,10 @@ nav .section-text {
   margin-bottom: 5%;
 }
 
-.fa-quote-left {
+.fa-quote-left
+.fa-quote-right {
   text-align: center;
-  font-size: 5em;
+  font-size: 4em;
   margin: auto;
   position: relative;
   display: block;
