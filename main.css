@@ -243,7 +243,7 @@ section-text {
 a {
   color: #7f941d;
   text-decoration: none;
-  padding: 1% 1%;
+  padding: 1% 0.5%;
 }
 
 a:hover {
@@ -686,9 +686,7 @@ nav .section-text {
 .fa-quote-right {
   text-align: center;
   font-size: 4em;
-  margin: auto;
-  position: relative;
-  /* display: block; */
+  display: block;
   justify-content: space-evenly;
   font-weight: bold;
   color: #7f941d;
