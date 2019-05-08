@@ -293,11 +293,11 @@ quotes:
 
 </section>
 <!-- - - - - - - - - Section: HOME PORTRAITS GALLERY - - - - - - - - - --->
-<section class="home-gallery grid mobile-gallery-skim" id="homes">
+<section class="home-gallery" id="homes">
 
   <h3 class="col-12 section-heading">Homes</h3>
   <p class="col-12 gallery-text"><i>Click on any image to open the gallery . . .</i></p>
-
+<div class="mobile-gallery-skim grid">
   {% for item in page.home-gallery limit:8 %}
 
   <div class="col-3_xs-12-middle padded-1 gallery-item">
@@ -308,7 +308,7 @@ quotes:
   </div>
 
   {% endfor %}
-
+</div>
   {% for item in page.home-gallery offset:8 %}
 
 
@@ -342,13 +342,14 @@ quotes:
 </section>
 <!--  - - - -  - - SECTION: NEWBORN PHOTO BACKGROUNDS PORTRAITS - - - - - - - - - -->
 
-<section class="newborn-gallery grid mobile-gallery-skim" id="newborn">
+<section class="newborn-gallery" id="newborn">
 
   <h3 class="col-12 section-heading">Newborn Photography Backgrounds</h3>
   <p class="col-12 newborn-text">These and more of my digital backgrounds for newborn photography available for purchase via:</p>
   <a class="col-12 newborn-link" target="_blank" href="https://www.luisadunnphotographyshop.com/shop/?product_cat=elyse-whittaker-paek-designs"><strong>Luisa Dunn Photography</strong></a>
   <p class="col-12 gallery-text">Click on any image to open the gallery . . . </p>
 
+<div class="mobile-gallery-skim grid">
   {% for item in page.newborn-gallery limit:8 %}
 
   <div class="col-3_xs-12-middle padded-1 gallery-item">
@@ -359,7 +360,7 @@ quotes:
   </div>
 
   {% endfor %}
-
+</div>
   {% for item in page.newborn-gallery offset:8 %}
 
 
@@ -372,11 +373,11 @@ quotes:
 <br>
 <!-- - - - - - - - - - ILLUSTRATION : Children's Books - - - - - - - - -->
 
-<section class="children-gallery grid mobile-gallery-skim" id="children">
+<section class="children-gallery grid" id="children">
 
   <h3 class="col-12 section-heading">Children's Books</h3>
   <p class="col-12 gallery-text"><i>Click on any image to open the gallery . . .</i></p>
-
+<div class="mobile-gallery-skim grid">
   {% for item in page.children-gallery limit:8 %}
 
   <div class="col-3_xs-12-middle padded-1 gallery-item">
@@ -387,7 +388,7 @@ quotes:
   </div>
 
   {% endfor %}
-
+</div>
   {% for item in page.children-gallery offset:8 %}
 
 

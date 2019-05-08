@@ -562,6 +562,7 @@ nav .section-text {
   text-align: center;
   padding: 0;
   margin-bottom: 20px;
+  display:block;
 }
 /* - - - - - - - - - - ILLUSTRATIONS: Children's Books - - - - - - - - - - */
 .children-gallery {
@@ -687,7 +688,7 @@ nav .section-text {
   font-size: 4em;
   margin: auto;
   position: relative;
-  display: block;
+  /* display: block; */
   justify-content: space-evenly;
   font-weight: bold;
   color: #7f941d;
@@ -893,7 +894,7 @@ footer a {
       display: none;
     }
 
-    .mobile-gallery-skim :nth-child(n+6) {
+    .mobile-gallery-skim :nth-child(n+4) {
       display: none;
     }
 
