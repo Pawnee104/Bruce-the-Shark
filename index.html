@@ -373,11 +373,13 @@ quotes:
 <br>
 <!-- - - - - - - - - - ILLUSTRATION : Children's Books - - - - - - - - -->
 
-<section class="children-gallery grid" id="children">
+<section class="children-gallery" id="children">
 
   <h3 class="col-12 section-heading">Children's Books</h3>
   <p class="col-12 gallery-text"><i>Click on any image to open the gallery . . .</i></p>
+
 <div class="mobile-gallery-skim grid">
+
   {% for item in page.children-gallery limit:8 %}
 
   <div class="col-3_xs-12-middle padded-1 gallery-item">
@@ -388,6 +390,7 @@ quotes:
   </div>
 
   {% endfor %}
+  
 </div>
   {% for item in page.children-gallery offset:8 %}
 
