@@ -463,22 +463,21 @@ quotes:
 
 
 <!-- - - - - - - - - - - TESTIMONIALS- - - - - - - - - - - --->
-<section class="bg-reviews col-8_xs-12 grid mobile-gallery-skim" id="reviews">
+<section class="bg-reviews grid-middle mobile-gallery-skim" id="reviews">
 
   <!-- <section id="reviews"> -->
 
-</section>
-<section class="quote-box col-4_xs-12 grid">
-
   <div class="headline col-12">
     <h2>Etsy Reviews</h2>
-    <p class="headline col-12">Visit my<a class="shop" href="https://www.etsy.com/shop/ArtisticHomePortrait"><strong>Etsy shop</strong></a>for more reviews.</p><br>
+    <p class="col-12 headline">Visit my<a class="shop" href="https://www.etsy.com/shop/ArtisticHomePortrait"><strong>Etsy shop</strong></a>for more reviews.</p><br>
     <i class="fas fa-quote-left mob-hide"></i>
   </div>
 
-  {% for item in page.quotes %}
+</section>
+<section class="grid quote-box">
 
-  <div class="col-12">
+  {% for item in page.quotes %}
+  <div class="col-6_xs-12">
     <p class="credit">{{item.name}} <span class="date"> ( {{item.date}} )</span>
       <p>
         {% include stars.html %}
