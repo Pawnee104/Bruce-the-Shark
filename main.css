@@ -658,7 +658,7 @@ nav .section-text {
 }
 /*-- -  - - - - - - - - - - TESTIMONIALS - - - - - - - - - - - - - - - -- - - --*/
 .bg-reviews {
-  background-image:url("images/elyse/backgrounds-2.jpg");
+  background-image: none;
 }
 
 .headline p {
