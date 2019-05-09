@@ -463,7 +463,7 @@ quotes:
 
 
 <!-- - - - - - - - - - - TESTIMONIALS- - - - - - - - - - - --->
-<section class="bg-reviews grid-middle mobile-gallery-skim" id="reviews">
+<section class="col-8 grid bg-reviews quote-box mobile-gallery-skim" id="reviews">
 
   <!-- <section id="reviews"> -->
 
@@ -477,8 +477,8 @@ quotes:
 <section class="grid quote-box">
 
   {% for item in page.quotes %}
-  
-  <div class="col-6_xs-12">
+
+  <div class="col-12">
     <p class="credit">{{item.name}} <span class="date"> ( {{item.date}} )</span>
       <p>
         {% include stars.html %}
