@@ -312,7 +312,7 @@ a:hover {
   padding: 2%;
 }
 
-.bg-pattern {
+.bg-pattern .mob-hide {
   background-image: url("/images/elyse/backgrounds-lavender-wreath.png");
   background-size: cover;
   background-position: center;
