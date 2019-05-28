@@ -888,6 +888,7 @@ footer a {
   @media (max-width: 576px) {
     .mob-show {
       display: block;
+      overflow-x: hidden;
     }
 
     .mob-hide {
