@@ -895,13 +895,16 @@ footer a {
 
     .mob-hide {
       display: none;
+      overflow-x: hidden;
     }
 
     .mobile-gallery-skim :nth-child(n+4) {
       display: none;
+      overflow-x: hidden;
     }
 
     [class*="sm-hidden"] {
       display: none;
+      overflow-x: hidden;
     }
   }
