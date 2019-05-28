@@ -28,6 +28,7 @@ section *:hover {
 img {
   max-width: 100%;
   /* This ensures an image never breaks it's container */
+  overflow-x: hidden;
 }
 
 [class*="grid-"], [class*="grid_"], [class~="grid"] {
@@ -84,6 +85,7 @@ img {
   background-color: grey;
   background-size: cover;
   background-position: center;
+  overflow-x: hidden;
 }
 
 /* ----- UNIVERSAL STYLES --------------------------- */
