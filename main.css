@@ -247,7 +247,7 @@ section-text {
 a {
   color: #7f941d;
   text-decoration: none;
-  padding: 1% 0.8%;
+  padding: 1% 1%;
 }
 
 a:hover {
@@ -375,7 +375,7 @@ element.style {
   font-weight: 400;
   font-size: 1rem;
   text-align: center;
-  width: 79%;
+  width: 80%;
   padding: 1%;
   margin-top: 3px;
   margin-right: auto;
