@@ -108,7 +108,7 @@ section {
   padding: 0% 4% .5vh;
 }
 
-body {
+body, html {
   font-family: 'Montserrat', san-serif;
   text-align: left;
   width: 100vw;
