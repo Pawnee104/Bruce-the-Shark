@@ -247,7 +247,7 @@ section-text {
 a {
   color: #7f941d;
   text-decoration: none;
-  padding: 1% 0%;
+  padding: 1% 1%;
 }
 
 a:hover {
@@ -387,6 +387,10 @@ element.style {
 .bio-text span {
   font-weight: bold;
   text-align: center;
+}
+
+.bio-text a {
+  padding: 1% 0%;
 }
 
 .gallery-text {
