@@ -247,11 +247,22 @@ section-text {
   font-weight: 600;
   color: black;
   display: block;
-  padding: 5px 15px;
+  padding: 0px 15px;
   text-align: center;
   white-space: nowrap;
 }
 
+.burger-menu h3 {
+  text-decoration: none;
+  padding: 15px 11px;
+  font-size: 18px;
+  font-weight: 400;
+  color: black;
+  display: block;
+  padding: 0px 15px;
+  text-align: center;
+  white-space: nowrap;
+}
 /*
 .dropdown-nav:hover .dropdown-content {
     display: block;
