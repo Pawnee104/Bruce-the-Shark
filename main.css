@@ -775,14 +775,14 @@ textarea {
 input:focus {
   background-color: #ffffcc;
   border-color: #ffffcc;
-  color: white;
+  color: black;
   outline: none;
 }
 
 textarea:focus {
   background-color: #ffffcc;
   border-color: #ffffcc;
-  color: white;
+  color: black;
   outline: none;
 }
 
