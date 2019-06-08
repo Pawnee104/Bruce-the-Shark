@@ -231,7 +231,7 @@ section-text {
   color: #7f941d;
   font-family: 'Montserrat', san-serif;
   display: block;
-  padding: 5px 15px;
+  padding: 10px 15px;
   text-align: center;
   white-space: nowrap;
 }
@@ -262,7 +262,7 @@ section-text {
   white-space: nowrap;
 }
 
-.burger-social {
+.burger-social a {
   padding: 3%;
   font-size: 1.5rem;
   text-align: center;
