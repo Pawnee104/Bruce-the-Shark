@@ -261,6 +261,10 @@ section-text {
   text-align: center;
   white-space: nowrap;
 }
+
+.burger-menu .social {
+  padding: 1%;
+}
 /*
 .dropdown-nav:hover .dropdown-content {
     display: block;
