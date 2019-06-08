@@ -174,8 +174,8 @@ section-text {
 }
 
 .burger-button.active span {
-  border-color: #383;
-  background-color: #383;
+  border-color: #7f941d;
+  background-color: #7f941d;
 }
 
 .burger-top, .burger-bottom {
@@ -231,7 +231,7 @@ section-text {
   color: #7f941d;
   font-family: 'Montserrat', san-serif;
   display: block;
-  padding: 10px 15px;
+  padding: 5px 15px;
   text-align: center;
   white-space: nowrap;
 }
@@ -263,7 +263,7 @@ section-text {
 }
 
 .burger-social a {
-  padding: 3%;
+  padding: 2%;
   font-size: 1.5rem;
   text-align: center;
   font-weight: 600;
