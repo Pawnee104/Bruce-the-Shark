@@ -137,11 +137,11 @@ h2 {
 
 h3 {
   font-size: 2em;
-  font-weight: 900;
 }
 
 section-text {
   font-size: 1.5em;
+  font-weight: 900;
 }
 
 .col, [class*=col-] {
@@ -151,7 +151,7 @@ section-text {
 .fa {
   font-size: 2.5em;
   margin: 0 0 .5em;
-  color: #1abc9c;
+  color: #7f941d;
   /* featured-color */
 }
 
