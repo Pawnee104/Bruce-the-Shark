@@ -139,9 +139,12 @@ h3 {
   font-size: 2em;
 }
 
-section-text {
+.section-text {
+  display: block;
+  padding: 1% 1%;
   font-size: 1.5em;
   font-weight: 900;
+  font-size: 3rem;
 }
 
 .col, [class*=col-] {
@@ -502,10 +505,6 @@ element.style {
   margin-bottom: 1.5px;
 }
 
-nav .section-text {
-  font-size: 3rem;
-}
-
 /* - - - - - - - - -- -  PORTRAITS: HOMES - - - -- - - - - - */
 .home-gallery {
   background-color: none;
@@ -556,11 +555,6 @@ nav .section-text {
     background-image: url("images/pet portraits/pet-3.jpg");
 } */
 /* - - - - - - - - - - - - ILLUSTRATIONS HEADER- - - - - - - - - - - */
-.section-text a {
-  display: block;
-  padding: 1% 1%;
-}
-
 .illustrations-text {
   background: rgba(255, 255, 255, 0.75);
   padding: 2.5rem 2.5rem 2.5rem 2.5rem;
