@@ -262,8 +262,8 @@ section-text {
   white-space: nowrap;
 }
 
-.burger-menu .social {
-  padding: 2%;
+.burger-social {
+  padding: 3%;
 }
 /*
 .dropdown-nav:hover .dropdown-content {
