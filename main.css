@@ -139,12 +139,11 @@ h3 {
   font-size: 2em;
 }
 
-.section-text {
+.section-text a {
   display: block;
   padding: 1% 1%;
   font-size: 1.5em;
   font-weight: 900;
-  font-size: 1rem;
 }
 
 .col, [class*=col-] {
