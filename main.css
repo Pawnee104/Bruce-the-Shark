@@ -731,7 +731,7 @@ element.style {
 
 .email,
 .shop {
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .contact-form p {
@@ -824,9 +824,9 @@ footer a {
 }
 
 .social {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   text-align: center;
-  font-weight: 600;
+  font-weight: 400;
   padding: 2%;
   color: #7f941d;
 }
