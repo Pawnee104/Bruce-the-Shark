@@ -389,7 +389,7 @@ element.style {
     border: 4px solid #7f941d;
 }
 
-.col-8_xs-12 {
+.col-8_sm-12 {
   display: inline-block !important;
   float: none !important;
   position: static !important;
