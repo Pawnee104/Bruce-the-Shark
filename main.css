@@ -389,12 +389,22 @@ element.style {
     border: 4px solid #7f941d;
 }
 
+.col-8_xs-12 {
+  display: inline-block !important;
+  float: none !important;
+  position: static !important;
+  overflow: visible !important;
+  -moz-appearance: meterchunk;
+  height: 100%;
+  width: 100%;
+}
+
 .bio-text-opening, .bio-text-signature {
   font-family: 'Dancing Script', cursive;
   font-size: 2rem;
   font-weight: 700;
   text-align: center;
-  width: 75%;
+  width: 100%;
   padding: 1%;
   margin-left: auto;
   margin-right: auto;
@@ -407,7 +417,7 @@ element.style {
   font-weight: 400;
   font-size: 1rem;
   text-align: center;
-  width: 80%;
+  width: 100%;
   padding: 1%;
   margin-top: 3px;
   margin-right: auto;
