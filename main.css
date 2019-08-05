@@ -632,53 +632,7 @@ element.style {
     background-image: url("images/home-portraits/home-30.jpg");
 
 } */
-/*  - - - - - - - - - - ILLUSTRATIONS: FASHION + TEXTILES - - - - - - - - - -*/
-.fashion-gallery {
-  background-color: none;
-}
 
-/* .fashion-1, .fashion-2, .fashion-3 {
-    background-size: contain;
-    background-position: center;
-    padding-bottom:100%;
-    border-width: 5px;
-
-} */
-/* .fashion-1 {
-    background-image: url("images/fashion/fashion-20.jpg");
-}
-
-.fashion-2 {
-    background-image: url("images/fashion/fashion-32.jpg");
-}
-
-.fashion-3 {
-    background-image: url("images/fashion/fashion-25.jpg");
-  } */
-/*  - - - - - - - - - - ILLUSTRATIONS: BESPOKE PROJECTS - - - - - - - - - -*/
-.bespoke-gallery {
-  background-color: none;
-}
-
-/* .bespoke-1, .bespoke-2, .bespoke-3 {
-      background-size: contain;
-      background-position: center;
-      padding-bottom:100%;
-      border-width: 5px;
-
-  }
-
-  .bespoke-1 {
-      background-image: url("images/bespoke/bespoke-7.jpg");
-  }
-
-  .bespoke-2 {
-      background-image: url("images/bespoke/bespoke-33.jpg");
-  }
-
-  .bespoke-3 {
-      background-image: url("images/bespoke/bespoke-26.jpg");
-    } */
 /*-- -  - - - - - - - - - - INSTAGRAM - - - - - - - - - - - - - - - -- - - --*/
 .bg-instagram {
   background-color: #bfb2c4;
@@ -747,6 +701,7 @@ element.style {
 .contact-form p {
   text-align: center;
   max-width: 80%;
+  line-height: 1.75;
   margin: auto;
   padding: 0 7.25%;
 }
