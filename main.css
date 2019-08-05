@@ -664,6 +664,10 @@ element.style {
   padding: 0;
 }
 
+.quote-box {
+  line-height: 1.15;
+}
+
 .credit {
   font-weight: 900;
   padding-bottom: 4%;
