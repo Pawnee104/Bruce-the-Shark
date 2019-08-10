@@ -291,6 +291,7 @@ a:hover {
   font-size: 3rem;
   color: white;
   position: absolute;
+  top: -.05rem;
   bottom: 0;
   width: 100%;
   right: 0;
@@ -519,50 +520,6 @@ element.style {
   background-color: none;
 }
 
-/* .home-1, .home-2, .home-3 {
-    background-size: cover;
-    background-position: center;
-    padding-bottom:65%;
-    border-width: 5px;
-    /* align-items: center;
-    justify-content: center;  */
-/* } */
-/*
-.home-1 {
-    background-image: url("images/home portraits/home-18.jpg");
-}
-
-.home-2 {
-    background-image: url("images/home portraits/home-24.jpg");
-}
-
-.home-3 {
-    background-image: url("images/home portraits/home-30.jpg");
-} */
-/* - - - - - - - - -- -  PORTRAITS: PETS - - - -- - - - - - */
-.newborn-gallery {
-  background-color: none;
-}
-
-/* .pet-1, .pet-2, .pet-3 {
-    background-size: cover;
-    background-position: center;
-    padding-bottom:65%;
-    border-width: 5px;
-
-} */
-/*
-.pet-1 {
-    background-image: url("images/pet portraits/pet-1.jpg");
-}
-
-.pet-2 {
-    background-image: url("images/pet portraits/pet-2.jpg");
-}
-
-.pet-3 {
-    background-image: url("images/pet portraits/pet-3.jpg");
-} */
 /* - - - - - - - - - - - - ILLUSTRATIONS HEADER- - - - - - - - - - - */
 .illustrations-text {
   background: rgba(255, 255, 255, 0.75);
@@ -606,32 +563,6 @@ element.style {
   margin-bottom: 20px;
   display:block;
 }
-/* - - - - - - - - - - ILLUSTRATIONS: Children's Books - - - - - - - - - - */
-.children-gallery {
-  background-color: none;
-}
-
-/* .children-1, .children-2, .children-3 {
-    background-size: cover;
-    background-position: center;
-    padding-bottom:85%;
-    border-width: 5px; */
-/* align-items: center;
-    justify-content: center;  */
-}
-
-/* .children-1 {
-    background-image: url("images/home-portraits/home-18.jpg");
-}
-
-.children-2 {
-    background-image: url("images/home-portraits/home-24.jpg");
-}
-
-.children-3 {
-    background-image: url("images/home-portraits/home-30.jpg");
-
-} */
 
 /*-- -  - - - - - - - - - - INSTAGRAM - - - - - - - - - - - - - - - -- - - --*/
 .bg-instagram {
