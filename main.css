@@ -109,7 +109,7 @@ section {
 }
 
 body, html {
-  font-family: 'Montserrat', san-serif;
+  font-family: 'Montserrat', sans-serif;
   text-align: left;
   width: 100vw;
   color: rgb(60, 60, 65);
@@ -232,7 +232,7 @@ h3 {
   font-size: 20px;
   font-weight: 600;
   color: #7f941d;
-  font-family: 'Montserrat', san-serif;
+  font-family: 'Montserrat', sans-serif;
   display: block;
   padding: 5px 15px;
   text-align: center;
@@ -413,7 +413,7 @@ element.style {
 }
 
 .bio-text {
-  font-family: 'Montserrat', san-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 1rem;
   text-align: center;
@@ -543,7 +543,7 @@ element.style {
 
 /* - - - - - - - -- ILLUSTRATIONS: Newborn Photo Backgrounds - - - - - - - */
 .newborn-text {
-  font-family: 'Montserrat', san-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   margin: auto;
   align-items: center;
@@ -735,7 +735,7 @@ footer a {
 }
 
 .copyright {
-  font-family: 'Montserrat', san-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: .75rem;
   margin: auto;
@@ -747,7 +747,7 @@ footer a {
 }
 
 .site-credit {
-  font-family: 'Montserrat', san-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: .75rem;
   font-style: italic;
@@ -760,7 +760,7 @@ footer a {
 }
 
 .KSW-Comms {
-  font-family: 'Montserrat', san-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   font-style: normal;
   font-size: .75rem;
