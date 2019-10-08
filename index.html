@@ -242,6 +242,46 @@ quotes:
 
 
 ---
+
+<!--  Scroll To Top Button  -->
+<style>
+  #btnScrollToTop {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #bfb2c4;
+    box-shadow: 0 0 10px rgba(0,0,0,0.25);
+    color: #ffffff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#btnScrollToTop:active {
+  color: #7f941d;
+}
+
+</style>
+
+<button id=btnScrollToTop>
+<i class="material-icons">arrow_upward</i>
+</button>
+
+<script>
+  const btnScrollToTop = document.querySelector ("#btnScrollToTop");
+
+  btnScrollToTop.addEventListener ("click", function () {
+
+  $("html,body").animate( {scrollTop: 0}, "slow");
+});
+
+</script>
+
+<!-- END Scroll To Top Button -->
+
 <!-- - - - - - - - HEADER - - - - - - - --->
 <header class="bg-pattern grid-middle-center" style="background-image: url('{{page.banner-image}}');">
   <div class="header-text">
