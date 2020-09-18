@@ -546,7 +546,6 @@ element.style {
 .newborn-text {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-  font-size: 2rem;
   margin: auto;
   align-items: center;
   justify-content: center;
@@ -557,6 +556,7 @@ element.style {
 
 .newborn-link {
   margin: auto;
+  font-size: 2rem;
   align-items: center;
   justify-content: center;
   text-align: center;
