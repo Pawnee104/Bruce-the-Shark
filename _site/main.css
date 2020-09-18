@@ -1,0 +1,938 @@
+/* INDEX  --------------------
+  - CSS RESET
+  - GENERAL HELPER CLASSES
+  - UNIVERSAL STYLES
+  - HEADER & FOOTER
+  - MODULAR ELEMENTS
+    - Element Name
+  - FORMS
+  - SPECIFIC PAGES
+    - Page Name
+---------------------------
+Website Fonts: List fonts here for reference
+Website Colours: List colour hex codes here for reference
+----------------------------
+*/
+/* ---- CSS RESET --------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* transition:2s */
+}
+
+section *:hover {
+  /* transform:rotate(90deg) */
+}
+
+img {
+  max-width: 100%;
+  /* This ensures an image never breaks it's container */
+  overflow-x: hidden;
+}
+
+[class*="grid-"], [class*="grid_"], [class~="grid"] {
+  margin: 0;
+}
+
+/* ---- GENERAL HELPER CLASSES --------------------------- */
+.tall {
+  min-height: 100vh;
+}
+
+.med-height {
+  min-height: 50vh;
+}
+
+.left {
+  text-align: left;
+}
+
+.centered {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.padded-1,
+[class*=col].padded-1 {
+  padding: 1%;
+}
+
+.padded-3 {
+  padding: 3%;
+}
+
+.padded-5 {
+  padding: 5%;
+}
+
+.padded-top-1 {
+  padding-top: 1%;
+}
+
+.mob-show {
+  display: none;
+}
+
+.bg-img {
+  background-color: grey;
+  background-size: cover;
+  background-position: center;
+  overflow-x: hidden;
+}
+
+/* ----- UNIVERSAL STYLES --------------------------- */
+.bg-featured {
+  background-color: #1abc9c;
+  color: white;
+}
+
+.bg-dark {}
+
+.bg-light {}
+
+.featured h1,
+.featured h2,
+.featured h3 {
+  color: white;
+}
+
+section {
+  padding: 0% 4% .5vh;
+}
+
+body, html {
+  font-family: 'Montserrat', san-serif;
+  text-align: left;
+  width: 100vw;
+  color: rgb(60, 60, 65);
+  background-color: #edf7f6;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, nav {
+  font-family: 'Fredericka the Great', cursive;
+  text-transform: uppercase;
+  color: black;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+h1 {
+  font-size: 3vw;
+  line-height: 0.9em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+.section-text a {
+  display: block;
+  padding: 2.25% 1%;
+  font-size: 1em;
+  font-weight: 900;
+}
+
+.col, [class*=col-] {
+  padding: 2.5%;
+}
+
+.fa {
+  font-size: 2.5em;
+  margin: 0 0 .5em;
+  color: #7f941d;
+  /* featured-color */
+}
+
+/* this is where you style the button if you want to add more space between the spans than add padding to this div but make sure you also add it to the top and bottom active classes on there top/bottom or else your cross wont line up*/
+.burger-button {
+  position: fixed;
+  top: 2vh;
+  right: 2vh;
+  z-index: 9999999999;
+  padding: 8px;
+}
+
+/*this is where you can chand the color of the buttons*/
+.burger-button span {
+  width: 25px;
+  border: 2px solid black;
+  background-color: black;
+  display: block;
+  border-radius: 22px;
+  transition: 2s;
+}
+
+.burger-button.active span {
+  border-color: #7f941d;
+  background-color: #7f941d;
+}
+
+.burger-top, .burger-bottom {
+  position: absolute;
+}
+
+.burger-top {
+  top: 02px;
+}
+
+.burger-bottom {
+  bottom: 02px;
+}
+
+/* make sure this has the same top as the burger button has padding*/
+.burger-button.active .burger-top {
+  position: absolute;
+  top: 8px;
+  transform: rotateZ(45deg);
+}
+
+.burger-button.active .burger-middle {
+  transform: rotateZ(270deg);
+  border-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+}
+
+/* make sure this has the same bottom as the burger button has padding*/
+.burger-button.active .burger-bottom {
+  position: absolute;
+  bottom: 8px;
+  transform: rotateZ(-45deg);
+}
+
+.burger-menu {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #f9f9f9;
+  padding: 5px;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+  z-index: 99999999;
+}
+
+.burger-menu a {
+  text-decoration: none;
+  padding: 15px 11px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #7f941d;
+  font-family: 'Montserrat', san-serif;
+  display: block;
+  padding: 5px 15px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.burger-menu li {
+  list-style: none
+}
+
+.burger-menu h2 {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+  display: block;
+  padding: 20px 15px 0px 15px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.burger-menu h3 {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+  color: black;
+  display: block;
+  padding: 0px 15px 20px 15px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.burger-social a {
+  padding: 2%;
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 600;
+  color: #7f941d;
+}
+/*
+.dropdown-nav:hover .dropdown-content {
+    display: block;
+} */
+a {
+  color: #7f941d;
+  text-decoration: none;
+  padding: 1% 1%;
+}
+
+a:hover {
+  color: #dca625;
+  transition: all .5s;
+}
+
+.arrow-button {
+  font-size: 3rem;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  right: 0;
+  left: 0;
+  text-align: center;
+}
+
+.arrow-button .fa-angle-double-down {
+  font-size: 6rem;
+  color: white;
+  padding-bottom: 4%;
+}
+
+.stars {
+  color: black;
+  font-size: 1rem;
+  text-align: left;
+  bottom: 8px;
+  margin-bottom: 5%;
+}
+
+/* Gallery Styles */
+.gallery-image {
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  background-position: center;
+  padding-bottom: 100%;
+  border-width: 5px;
+  margin-bottom: 1rem;
+}
+
+.gallery-item a {
+  padding: 0;
+}
+
+.bespoke-gallery .gallery-image {
+  /* ADD SPECIFIC STYLES HERE */
+}
+
+/* - - - - - - - - - - - - - - HEADER - - - - - - - - - - - - - - - - - -- */
+.header-text {
+  background: rgba(255, 255, 255, 0.65);
+  padding: 2.5rem;
+  /* margin: auto; */
+  align-items: center;
+  justify-content: center;
+}
+
+.header-text h1, h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.mob-hide {
+  padding: 2%;
+}
+
+.bg-pattern {
+  background-image: url("/images/elyse/backgrounds-lavender-wreath.png");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.fb-share-button {
+  text-align: center;
+  align-items: center;
+  /* padding-top: 1%;
+  padding-bottom: 1%; */
+}
+/* - - - - - - - - - - - - - - -- ABOUT - - -- - - - - - - - - - - - - - -  */
+hr {
+  border: none;
+  border-bottom: 1px solid darkgray;
+  width: 80%;
+  margin: 0 auto 0;
+  /* top, left+right, bottom */
+  padding: 0;
+}
+
+.bg-Elyse {
+  background-image: url("/images/elyse/elyse-1.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  padding: 4px;
+  width: 20vw;
+  height: 20vw;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+element.style {
+    border: 4px solid #7f941d;
+}
+
+.bio-text-opening, .bio-text-signature {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  width: 75%;
+  padding: 1%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.5px;
+  margin-bottom: 1.5px;
+}
+
+.bio-text {
+  font-family: 'Montserrat', san-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  text-align: center;
+  width: 80%;
+  padding: 1%;
+  margin-top: 3px;
+  margin-right: auto;
+  margin-bottom: 1px;
+  margin-left: auto;
+  line-height: 2;
+}
+
+.bio-text span {
+  font-weight: bold;
+  text-align: center;
+}
+
+.bio-text a {
+  padding: 1% 0%;
+}
+
+.gallery-text {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  padding: 1%;
+  margin-bottom: 1.5px;
+}
+
+[class*=bg-circle-] {
+  background-image: url("/images/fashion/fashion-36.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 4px;
+  padding-bottom: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  border-radius: 100%;
+}
+
+.flex-spacer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.bg-circle-2 {
+  background-image: url("images/fashion/fashion-26.jpg");
+}
+
+.bg-circle-3 {
+  background-image: url("images/fashion/fashion-34.jpg");
+}
+
+.bg-circle-4 {
+  background-image: url("images/fashion/fashion-24.jpg");
+}
+
+.bg-circle-5 {
+  background-image: url("images/children/children-summer-6.jpg");
+}
+
+.bg-circle-6 {
+  background-image: url("images/fashion/fashion-27.jpg");
+}
+
+/* - - - - - - - - - - - - PORTRAITS: HEADER - - - -- - - - - - - - - */
+.portrait-text {
+  background: rgba(255, 255, 255, 0.75);
+  padding: 2.5rem 2.5rem 2.5rem 2.5rem;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.portrait-text a {
+  padding: 1% 12%;
+  display: inline-block;
+}
+
+.bg-portraits {
+  background-image: url("/images/home-portraits/home-63.png");
+  background-size: cover;
+  background-position: center;
+  min-height: 60vh;
+}
+
+.gallery-text {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  padding: 0;
+  margin-bottom: 1.5px;
+}
+
+/* - - - - - - - - -- -  PORTRAITS: HOMES - - - -- - - - - - */
+.home-gallery {
+  background-color: none;
+}
+
+/* .home-1, .home-2, .home-3 {
+    background-size: cover;
+    background-position: center;
+    padding-bottom:65%;
+    border-width: 5px;
+    /* align-items: center;
+    justify-content: center;  */
+/* } */
+/*
+.home-1 {
+    background-image: url("images/home portraits/home-18.jpg");
+}
+
+.home-2 {
+    background-image: url("images/home portraits/home-24.jpg");
+}
+
+.home-3 {
+    background-image: url("images/home portraits/home-30.jpg");
+} */
+/* - - - - - - - - -- -  PORTRAITS: PETS - - - -- - - - - - */
+.newborn-gallery {
+  background-color: none;
+}
+
+/* .pet-1, .pet-2, .pet-3 {
+    background-size: cover;
+    background-position: center;
+    padding-bottom:65%;
+    border-width: 5px;
+
+} */
+/*
+.pet-1 {
+    background-image: url("images/pet portraits/pet-1.jpg");
+}
+
+.pet-2 {
+    background-image: url("images/pet portraits/pet-2.jpg");
+}
+
+.pet-3 {
+    background-image: url("images/pet portraits/pet-3.jpg");
+} */
+/* - - - - - - - - - - - - ILLUSTRATIONS HEADER- - - - - - - - - - - */
+.illustrations-text {
+  background: rgba(255, 255, 255, 0.75);
+  padding: 2.5rem 2.5rem 2.5rem 2.5rem;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.illustration-text a {
+  padding: 1% 12%;
+}
+
+.bg-illustrations {
+  background-image: url("images/newborn-backgrounds/newborn-rocket-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 50vh;
+  padding: 3vh 5%;
+}
+
+/* - - - - - - - -- ILLUSTRATIONS: Newborn Photo Backgrounds - - - - - - - */
+.newborn-text {
+  font-family: 'Montserrat', san-serif;
+  font-weight: 400;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.newborn-link {
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0;
+  margin-bottom: 20px;
+  display:block;
+}
+/* - - - - - - - - - - ILLUSTRATIONS: Children's Books - - - - - - - - - - */
+.children-gallery {
+  background-color: none;
+}
+
+/* .children-1, .children-2, .children-3 {
+    background-size: cover;
+    background-position: center;
+    padding-bottom:85%;
+    border-width: 5px; */
+/* align-items: center;
+    justify-content: center;  */
+}
+
+/* .children-1 {
+    background-image: url("images/home-portraits/home-18.jpg");
+}
+
+.children-2 {
+    background-image: url("images/home-portraits/home-24.jpg");
+}
+
+.children-3 {
+    background-image: url("images/home-portraits/home-30.jpg");
+
+} */
+/*  - - - - - - - - - - ILLUSTRATIONS: FASHION + TEXTILES - - - - - - - - - -*/
+.fashion-gallery {
+  background-color: none;
+}
+
+/* .fashion-1, .fashion-2, .fashion-3 {
+    background-size: contain;
+    background-position: center;
+    padding-bottom:100%;
+    border-width: 5px;
+
+} */
+/* .fashion-1 {
+    background-image: url("images/fashion/fashion-20.jpg");
+}
+
+.fashion-2 {
+    background-image: url("images/fashion/fashion-32.jpg");
+}
+
+.fashion-3 {
+    background-image: url("images/fashion/fashion-25.jpg");
+  } */
+/*  - - - - - - - - - - ILLUSTRATIONS: BESPOKE PROJECTS - - - - - - - - - -*/
+.bespoke-gallery {
+  background-color: none;
+}
+
+/* .bespoke-1, .bespoke-2, .bespoke-3 {
+      background-size: contain;
+      background-position: center;
+      padding-bottom:100%;
+      border-width: 5px;
+
+  }
+
+  .bespoke-1 {
+      background-image: url("images/bespoke/bespoke-7.jpg");
+  }
+
+  .bespoke-2 {
+      background-image: url("images/bespoke/bespoke-33.jpg");
+  }
+
+  .bespoke-3 {
+      background-image: url("images/bespoke/bespoke-26.jpg");
+    } */
+/*-- -  - - - - - - - - - - INSTAGRAM - - - - - - - - - - - - - - - -- - - --*/
+.bg-instagram {
+  background-color: #bfb2c4;
+  padding-bottom: 4%;
+}
+
+.bg-instagram a {
+  font-weight: 700;
+}
+
+.insta-feed {
+  /* background-color:
+    align-content: center;
+  /* width: 100%; */
+}
+
+.lightwidget-widget {
+  max-width: 100vw!important;
+}
+/*-- -  - - - - - - - - - - TESTIMONIALS - - - - - - - - - - - - - - - -- - - --*/
+.bg-reviews {
+  background-image: none;
+}
+
+.headline p {
+  text-align: center;
+  max-width: 600px;
+  margin: auto;
+  padding: 0;
+}
+
+.credit {
+  font-weight: 900;
+  padding-bottom: 4%;
+}
+
+.date {
+  font-weight: normal;
+  padding-bottom: 4%;
+}
+
+.stars {
+  margin-bottom: 5%;
+}
+
+.fa-quote-left,
+.fa-quote-right {
+  text-align: center;
+  font-size: 3.5em;
+  display: block;
+  justify-content: space-evenly;
+  font-weight: bold;
+  color: #7f941d;
+}
+/* - - - - - - - - - - - SECTION: CONNECT - - - - - - - - - - - - - - - */
+.headline h2 {
+  margin-top: 5px;
+  padding-top: 1%;
+}
+
+.email,
+.shop {
+  font-weight: 600;
+}
+
+.contact-form p {
+  text-align: center;
+  max-width: 80%;
+  margin: auto;
+  padding: 0 7.25%;
+}
+
+form {
+  width: 100%;
+  padding: .5rem;
+  margin: auto;
+  position: relative;
+  box-sizing: border-box;
+  display: block;
+  justify-content: space-evenly;
+  border-radius: 4px;
+  background-color: #bfb2c4;
+}
+
+input, textarea {
+  background-color: #E6E6EE;
+  color: black;
+  font-size: 1rem;
+  /*   height: 25px;; */
+  /* max-width: 600px; */
+  width: 100%;
+  padding: .7%;
+  margin: 2% auto;
+  display: block;
+}
+
+::placeholder {
+  color: gray;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.button {
+  background-color: #7f941d;
+  border: 1px;
+  border-radius: .25rem;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  width: 25%;
+  text-align: center;
+  vertical-align: middle;
+  justify-content: space-evenly;
+  margin: auto;
+  -webkit-appearance: none;
+}
+
+.button:hover {
+  background-color: #dca625;
+  border-color: #dca625;
+  color: white;
+}
+
+input:focus {
+  background-color: #ffffcc;
+  border-color: #ffffcc;
+  color: gray;
+  outline: none;
+}
+
+textarea:focus {
+  background-color: #ffffcc;
+  border-color: #ffffcc;
+  color: gray;
+  outline: none;
+}
+
+/* - - - - - - - - - - - - FOOTER - - - - - - - - - - - - - -   */
+footer {
+  background-color: #bfb2c4;
+  /* padding-top: 3vh; */
+}
+
+.bg-footer {
+  padding-top: 3vh;
+}
+
+footer a {
+  padding: 0;
+}
+
+.social {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 400;
+  padding: 2%;
+  color: #7f941d;
+}
+
+.social a {
+  padding: 0% 3%;
+}
+
+.copyright {
+  font-family: 'Montserrat', san-serif;
+  font-weight: 400;
+  font-size: .75rem;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.site-credit {
+  font-family: 'Montserrat', san-serif;
+  font-weight: 400;
+  font-size: .75rem;
+  font-style: italic;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2%;
+  margin-bottom: 10px;
+}
+
+.KSW-Comms {
+  font-family: 'Montserrat', san-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: .75rem;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+  /* Individual Blog Post Styles */
+  .sidebar div {
+    border: 2px solid rgb(200, 200, 200);
+    margin-bottom: 1rem;
+    padding: 5%;
+  }
+
+  .post-info p {
+    font-size: 1rem;
+    font-style: normal text-align: left;
+  }
+
+  /* Blog.html page Styles */
+  /* add css styles for "Recent Posts" page here */
+  .post-preview div {
+    margin-bottom: 1rem;
+    padding: 5%;
+  }
+
+  .post-info p {
+    font-size: 1rem;
+    font-style: normal text-align: left;
+  }
+
+  .post-desc {
+    font-size: 12px;
+    color: featured.color;
+  }
+
+  .post-date {
+    font-size: 10px;
+  }
+
+  .post-author {
+    font-size: 12px;
+    font-weight: 900;
+  }
+
+  /* - - - - - - - - - - -SCROLL BUTTON - - - - - - - - - - -- - */
+
+  /*  - - - - - - - - - - -  MEDIA QUERIES - - - - - - - - - - - -- */
+  @media (max-width: 576px) {
+    .mob-show {
+      display: block;
+      overflow-x: hidden;
+    }
+
+    .mob-hide {
+      display: none;
+      overflow-x: hidden;
+    }
+
+    .mobile-gallery-skim :nth-child(n+4) {
+      display: none;
+      overflow-x: hidden;
+    }
+
+    [class*="sm-hidden"] {
+      display: none;
+      overflow-x: hidden;
+    }
+  }
