@@ -360,6 +360,7 @@ a:hover {
 .fb-share-button {
   text-align: center;
   align-items: center;
+  display: block!important;
   /* padding-top: 1%;
   padding-bottom: 1%; */
 }
