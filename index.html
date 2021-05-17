@@ -1,7 +1,11 @@
 ---
 layout: default
 title:
+<<<<<<< HEAD
 banner-image: images/landing-page-flowers-bees-web.jpg
+=======
+banner-image: /images/landing-page-flowers-bees-web.jpg
+>>>>>>> 94ebba888780d869f8b006a8bc7045bed59c3644
 home-gallery:
   - featured_image: /images/home-portraits/home-87.png
   - featured_image: /images/home-portraits/home-86.png
@@ -484,7 +488,7 @@ quotes:
   {% for item in page.quotes %}
   <div class="col-6_xs-12">
     <p class="credit">{{item.name}} <span class="date"> ({{item.date | date: "%B %Y"}})</span>
-      <p>
+      </p><p>
         {% include stars.html %}
         <br /></p><p> {{item.review}} </p>
   </div>
