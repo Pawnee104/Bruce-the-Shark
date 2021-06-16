@@ -350,7 +350,7 @@ a:hover {
 }
 
 .bg-pattern {
-  background-image: url("/images/elyse/backgrounds-lavender-wreath.png");
+  background-image: url("images/header images/landing-page-bees-flowers.jpeg");
   background-size: cover;
   background-position: center;
   min-height: 100vh;
@@ -536,7 +536,7 @@ element.style {
 }
 
 .bg-illustrations {
-  background-image: url("images/landing-page-flowers-bees-web.jpg");
+  background-image: url("images/header images/newborn-1-floral.JPG");
   background-size: cover;
   background-position: center;
   min-height: 50vh;
