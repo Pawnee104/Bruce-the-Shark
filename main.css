@@ -350,7 +350,7 @@ a:hover {
 }
 
 .bg-pattern {
-  background-image: url("images/header-images/landing-page-bees-flowers.png");
+  background-image: url("/images/header-images/landing-page-bees-flowers.png");
   background-size: cover;
   background-position: center;
   min-height: 100vh;
@@ -375,7 +375,7 @@ hr {
 }
 
 .bg-Elyse {
-  background-image: url("images/header-images/elyse-1.jpg");
+  background-image: url("/images/header-images/elyse-1.jpg");
   background-size: cover;
   background-position: center;
   border-radius: 50%;
